@@ -106,10 +106,11 @@ body{
 	overflow: hidden;
 	#texts{
 		.text{
-			.absoluteBox(500px, 200px, 50%, 50%);
-			margin: -150px 0 0 -250px;
+			.absoluteBox(600px, 200px, 50%, 50%);
+			margin: -150px 0 0 -300px;
 			text-align: center;
 			font-size: 74px;
+			line-height: 80px;
 			.text-shadow (0 1px 30px rgba(0, 0, 0, 0.7));
 			z-index: 10000;
 			opacity: 0;
@@ -170,23 +171,63 @@ body{
 				.field-position(523px, 0px, 2003);
 				.at2x('@{imagesFolder}field3.png', 2571px, 523px);
 			}
+			.field-1-summer{
+				.field-position(387px, 0, 2005);
+				.at2x('@{imagesFolder}field1-summer.png', 2571px, 523px);
+			}
+			.field-2-summer{
+				.field-position(387px, 120px, 2004);
+				.at2x('@{imagesFolder}field2-summer.png', 2571px, 523px);
+			}
+			.field-3-summer{
+				.field-position(523px, 0px, 2003);
+				.at2x('@{imagesFolder}field3-summer.png', 2571px, 523px);
+			}
 		}
 	}
 	#front-field{
+		.hot-sun{
+			.absoluteBox(100%, 100%, 0,0);
+			background: url('@{imagesFolder}hot-sun.png');
+			background-repeat: no-repeat;
+			z-index: 5001;
+		}
+		.hot-filter{
+			.absoluteBox(100%, 100%, 0,0);
+			background: rgba(251,171,24,.25);
+			z-index: 5000;
+		}
+		.sad-filter{
+			.absoluteBox(100%, 100%, 0,0);
+			.gradient(rgba(1,0,58,.9),rgba(1,0,58,.1));
+			z-index: 5000;
+		}
+		.rain-filter{
+			.absoluteBox(100%, 100%, 0,0);
+			.at2x('@{imagesFolder}rain.png', 100px, 100px);
+			.animation (rain, 1s, 0, linear, infinite);
+			z-index: 5001;
+		}
 		.center-wrap{
-			width: 500px;
-			height: 500px;
-			position: absolute;
-			//border: solid 1px white;
-			top: 50%;
-			left: 50%;
+			.absoluteBox(500px, 500px, 50%, 50%);
 			z-index: 3000;
 			margin: -250px 0 0 -250px;
+			.corn-group{
+				.absoluteBox(500px, 500px);
+
+			}
 			.corn{
 				.absoluteBox(446px, 366px);
 				.at2x('@{imagesFolder}corns.png', 446px, 366px);
 				bottom: 0px;
 				z-index: 3001;
+				transform-origin: center 366px;
+			}
+			.corn-summer{
+				.absoluteBox(446px, 366px);
+				.at2x('@{imagesFolder}corns-summer.png', 446px, 366px);
+				bottom: 0px;
+				z-index: 3002;
 				transition: .5s;
 				transform-origin: center 366px;
 			}
@@ -204,6 +245,72 @@ body{
 				.at2x('@{imagesFolder}ground.png', 1433px, 174px);
 				margin: 0 0 0 -716px;
 				bottom: -117px;
+			}
+			//Estructura base del personaje
+			.personaje{
+				z-index: 4000;
+				.absoluteBox(323px, 350px, 65px, 240px);
+
+				.head{
+					.absoluteBox(150px, 150px, 28px, 33px);
+					transform-origin: 75px 150px;
+					z-index: 4010;
+					.head-back{
+						.absoluteBox(116px, 155px, 6px, 12px);
+						.at2x('@{imagesFolder}personaje/head-back.png', 116px, 155px);
+						z-index: 4010;
+					}
+					.head-front{
+						.absoluteBox(78px, 52px, 38px, 74px);
+						.at2x('@{imagesFolder}personaje/head-front.png', 78px, 52px);
+						z-index: 4020;
+					}
+					.gorra{
+						.absoluteBox(134px, 82px, 8px, -4px);
+						.at2x('@{imagesFolder}personaje/gorra.png', 134px, 82px);
+						z-index: 4020;
+					}
+					//Expresiones
+					.exp-feliz{
+						.absoluteBox(65px, 59px, 47px, 75px);
+						.at2x('@{imagesFolder}personaje/exp-feliz.png', 65px, 59px);
+						z-index: 4011;
+					}
+					.exp-preocupado{
+						.absoluteBox(65px, 51px, 47px, 75px);
+						.at2x('@{imagesFolder}personaje/exp-preocupado.png', 65px, 51px);
+						z-index: 4011;
+					}
+					.exp-triste{
+						.absoluteBox(65px, 46px, 47px, 75px);
+						.at2x('@{imagesFolder}personaje/exp-triste.png', 65px, 46px);
+						z-index: 4011;
+					}
+				}
+				
+				.body{
+					.absoluteBox(70px, 160px, 63px, 160px);
+					.at2x('@{imagesFolder}personaje/body.png', 70px, 160px);
+					z-index: 4009;
+				}
+				.shadow{
+					.absoluteBox(156px, 22px, 28px, 304px);
+					.at2x('@{imagesFolder}personaje/shadow.png', 156px, 22px);
+					z-index: 4008;
+				}
+				//Brazos
+				.brazo-izq{
+					.absoluteBox(36px, 57px, 31px, 183px);
+					.at2x('@{imagesFolder}personaje/brazo-izq.png', 36px, 57px);
+					transform-origin: 36px 15px;
+				}
+				.brazo-der{
+					.absoluteBox(36px, 57px, 127px, 185px);
+					.at2x('@{imagesFolder}personaje/brazo-der.png', 36px, 57px);
+					transform-origin: 0px 15px;
+				}
+
+			
 			}
 		}
 		.ground{
@@ -237,5 +344,21 @@ section{
 	100%{
 		opacity: 1;
 		-webkit-transform: translateX(0px);
+	}
+}
+@-webkit-keyframes rain{
+	0%{
+		background-position: 0px 0px;
+	}
+	100%{
+		background-position: 0px 100px;
+	}
+}
+@keyframes rain{
+	0%{
+		background-position: 0px 0px;
+	}
+	100%{
+		background-position: 0px 100px;
 	}
 }

@@ -83,15 +83,16 @@ body {
   overflow: hidden;
 }
 #wrapper #texts .text {
-  width: 500px;
+  width: 600px;
   height: 200px;
   display: inline-block;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin: -150px 0 0 -250px;
+  margin: -150px 0 0 -300px;
   text-align: center;
   font-size: 74px;
+  line-height: 80px;
   text-shadow: 0 1px 30px rgba(0, 0, 0, 0.7);
   z-index: 10000;
   opacity: 0;
@@ -241,14 +242,130 @@ body {
     background-size: 2571px 523px;
   }
 }
+#wrapper #fields .base-fields .field-1-summer {
+  position: absolute;
+  width: 100%;
+  height: 387px;
+  bottom: 0;
+  z-index: 2005;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-image: url('../imagenes/field1-summer.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #fields .base-fields .field-1-summer {
+    background-image: url("../imagenes/field1-summer@2x.png");
+    background-size: 2571px 523px;
+  }
+}
+#wrapper #fields .base-fields .field-2-summer {
+  position: absolute;
+  width: 100%;
+  height: 387px;
+  bottom: 120px;
+  z-index: 2004;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-image: url('../imagenes/field2-summer.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #fields .base-fields .field-2-summer {
+    background-image: url("../imagenes/field2-summer@2x.png");
+    background-size: 2571px 523px;
+  }
+}
+#wrapper #fields .base-fields .field-3-summer {
+  position: absolute;
+  width: 100%;
+  height: 523px;
+  bottom: 0px;
+  z-index: 2003;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-image: url('../imagenes/field3-summer.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #fields .base-fields .field-3-summer {
+    background-image: url("../imagenes/field3-summer@2x.png");
+    background-size: 2571px 523px;
+  }
+}
+#wrapper #front-field .hot-sun {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url('../imagenes/hot-sun.png');
+  background-repeat: no-repeat;
+  z-index: 5001;
+}
+#wrapper #front-field .hot-filter {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(251, 171, 24, 0.25);
+  z-index: 5000;
+}
+#wrapper #front-field .sad-filter {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(1, 0, 58, 0.9);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 58, 0.9)), to(rgba(1, 0, 58, 0.1)));
+  background: -webkit-linear-gradient(top, rgba(1, 0, 58, 0.9), rgba(1, 0, 58, 0.1));
+  background: -moz-linear-gradient(top, rgba(1, 0, 58, 0.9), rgba(1, 0, 58, 0.1));
+  background: -ms-linear-gradient(top, rgba(1, 0, 58, 0.9), rgba(1, 0, 58, 0.1));
+  background: -o-linear-gradient(top, rgba(1, 0, 58, 0.9), rgba(1, 0, 58, 0.1));
+  z-index: 5000;
+}
+#wrapper #front-field .rain-filter {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url('../imagenes/rain.png');
+  -webkit-animation: rain 1s 0 linear;
+  -moz-animation: rain 1s 0 linear;
+  -ms-animation: rain 1s 0 linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  z-index: 5001;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .rain-filter {
+    background-image: url("../imagenes/rain@2x.png");
+    background-size: 100px 100px;
+  }
+}
 #wrapper #front-field .center-wrap {
   width: 500px;
   height: 500px;
+  display: inline-block;
   position: absolute;
-  top: 50%;
   left: 50%;
+  top: 50%;
   z-index: 3000;
   margin: -250px 0 0 -250px;
+}
+#wrapper #front-field .center-wrap .corn-group {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  position: absolute;
+  left: auto;
+  top: auto;
 }
 #wrapper #front-field .center-wrap .corn {
   width: 446px;
@@ -260,12 +377,30 @@ body {
   background-image: url('../imagenes/corns.png');
   bottom: 0px;
   z-index: 3001;
-  transition: .5s;
   transform-origin: center 366px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
   #wrapper #front-field .center-wrap .corn {
     background-image: url("../imagenes/corns@2x.png");
+    background-size: 446px 366px;
+  }
+}
+#wrapper #front-field .center-wrap .corn-summer {
+  width: 446px;
+  height: 366px;
+  display: inline-block;
+  position: absolute;
+  left: auto;
+  top: auto;
+  background-image: url('../imagenes/corns-summer.png');
+  bottom: 0px;
+  z-index: 3002;
+  transition: .5s;
+  transform-origin: center 366px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .corn-summer {
+    background-image: url("../imagenes/corns-summer@2x.png");
     background-size: 446px 366px;
   }
 }
@@ -293,6 +428,185 @@ body {
   #wrapper #front-field .center-wrap .corn-ground {
     background-image: url("../imagenes/ground@2x.png");
     background-size: 1433px 174px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje {
+  z-index: 4000;
+  width: 323px;
+  height: 350px;
+  display: inline-block;
+  position: absolute;
+  left: 65px;
+  top: 240px;
+}
+#wrapper #front-field .center-wrap .personaje .head {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  position: absolute;
+  left: 28px;
+  top: 33px;
+  transform-origin: 75px 150px;
+  z-index: 4010;
+}
+#wrapper #front-field .center-wrap .personaje .head .head-back {
+  width: 116px;
+  height: 155px;
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  top: 12px;
+  background-image: url('../imagenes/personaje/head-back.png');
+  z-index: 4010;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .head .head-back {
+    background-image: url("../imagenes/personaje/head-back@2x.png");
+    background-size: 116px 155px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje .head .head-front {
+  width: 78px;
+  height: 52px;
+  display: inline-block;
+  position: absolute;
+  left: 38px;
+  top: 74px;
+  background-image: url('../imagenes/personaje/head-front.png');
+  z-index: 4020;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .head .head-front {
+    background-image: url("../imagenes/personaje/head-front@2x.png");
+    background-size: 78px 52px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje .head .gorra {
+  width: 134px;
+  height: 82px;
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  top: -4px;
+  background-image: url('../imagenes/personaje/gorra.png');
+  z-index: 4020;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .head .gorra {
+    background-image: url("../imagenes/personaje/gorra@2x.png");
+    background-size: 134px 82px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje .head .exp-feliz {
+  width: 65px;
+  height: 59px;
+  display: inline-block;
+  position: absolute;
+  left: 47px;
+  top: 75px;
+  background-image: url('../imagenes/personaje/exp-feliz.png');
+  z-index: 4011;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .head .exp-feliz {
+    background-image: url("../imagenes/personaje/exp-feliz@2x.png");
+    background-size: 65px 59px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje .head .exp-preocupado {
+  width: 65px;
+  height: 51px;
+  display: inline-block;
+  position: absolute;
+  left: 47px;
+  top: 75px;
+  background-image: url('../imagenes/personaje/exp-preocupado.png');
+  z-index: 4011;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .head .exp-preocupado {
+    background-image: url("../imagenes/personaje/exp-preocupado@2x.png");
+    background-size: 65px 51px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje .head .exp-triste {
+  width: 65px;
+  height: 46px;
+  display: inline-block;
+  position: absolute;
+  left: 47px;
+  top: 75px;
+  background-image: url('../imagenes/personaje/exp-triste.png');
+  z-index: 4011;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .head .exp-triste {
+    background-image: url("../imagenes/personaje/exp-triste@2x.png");
+    background-size: 65px 46px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje .body {
+  width: 70px;
+  height: 160px;
+  display: inline-block;
+  position: absolute;
+  left: 63px;
+  top: 160px;
+  background-image: url('../imagenes/personaje/body.png');
+  z-index: 4009;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .body {
+    background-image: url("../imagenes/personaje/body@2x.png");
+    background-size: 70px 160px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje .shadow {
+  width: 156px;
+  height: 22px;
+  display: inline-block;
+  position: absolute;
+  left: 28px;
+  top: 304px;
+  background-image: url('../imagenes/personaje/shadow.png');
+  z-index: 4008;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .shadow {
+    background-image: url("../imagenes/personaje/shadow@2x.png");
+    background-size: 156px 22px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje .brazo-izq {
+  width: 36px;
+  height: 57px;
+  display: inline-block;
+  position: absolute;
+  left: 31px;
+  top: 183px;
+  background-image: url('../imagenes/personaje/brazo-izq.png');
+  transform-origin: 36px 15px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .brazo-izq {
+    background-image: url("../imagenes/personaje/brazo-izq@2x.png");
+    background-size: 36px 57px;
+  }
+}
+#wrapper #front-field .center-wrap .personaje .brazo-der {
+  width: 36px;
+  height: 57px;
+  display: inline-block;
+  position: absolute;
+  left: 127px;
+  top: 185px;
+  background-image: url('../imagenes/personaje/brazo-der.png');
+  transform-origin: 0px 15px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #front-field .center-wrap .personaje .brazo-der {
+    background-image: url("../imagenes/personaje/brazo-der@2x.png");
+    background-size: 36px 57px;
   }
 }
 #wrapper #front-field .ground {
@@ -327,5 +641,21 @@ section {
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px);
+  }
+}
+@-webkit-keyframes rain {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px 100px;
+  }
+}
+@keyframes rain {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px 100px;
   }
 }
