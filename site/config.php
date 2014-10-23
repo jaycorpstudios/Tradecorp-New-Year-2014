@@ -19,7 +19,7 @@ define('DB_HOST', 'localhost');
 define('FILES_BASE', '/Users/Jay/Dropbox/websites/newyear/site/');
 
 /** URL Base del sitio */
-define('URL_BASE','http://localhost/newyear/site/');
+define('URL_BASE','http://10.31.254.110/newyear/site/');
 
 /** @name SESSION_ID Nombre de la variable principal de sesión */
 define('SESSION_ID', 'H4ppy2015');

@@ -11,25 +11,68 @@
     <body>
         <div id="tracking">00</div>
         <div id="wrapper">
+        <section id="texts">
+            <div class='text' data-0="opacity: 1; transform: scale(1);" data-1000="opacity: 0; transform: scale(0);"></div>
+            <div class='text'
+                data-1000="opacity: 0; transform: scale(0) translateY(0px);"
+                data-1200="opacity: 1; transform: scale(1) translateY(0px);"
+                data-2000="opacity: 0; transform: scale(1) translateY(-500px);"></div>
+            <div class='text'></div>
+        </section>
             <section id="sky">
-                <div class="sun"></div>
-                <div class="cloud-1" id="cloud1"></div>
-                <div class="cloud-2" id="cloud2"></div>
-                <div class="cloud-1" id="cloud3"></div>
-                <div class="cloud-2" id="cloud4"></div>
-                <div class="cloud-1" id="cloud5"></div>
-                <div class="cloud-small" id="cloud6"></div>
-                <div class="cloud-small" id="cloud7"></div>
+                <div class="sun"
+                    data-0="transform: translateX(0px) translateY(0px);"
+                    data-1000="transform: translateX(600px) translateY(-200px);"
+                    data-5000="transform: translateX(2800px) translateY(400px);">
+                </div>
+                <div class="cloud-1" id="cloud1"
+                    data-10="transform: translateY(0px);"
+                    data-2000="transform: translateY(-500px);">
+                </div>
+                <div class="cloud-2" id="cloud2"
+                    data-20="transform: translateY(0px);"
+                    data-2000="transform: translateY(-400px);">
+                </div>
+                <div class="cloud-1" id="cloud3"
+                    data-30="transform: translateY(0px);"
+                    data-2000="transform: translateY(-300px);">
+                </div>
+                <div class="cloud-2" id="cloud4"
+                    data-40="transform: translateY(0px);"
+                    data-2000="transform: translateY(-500px);">
+                </div>
+                <div class="cloud-1" id="cloud5"
+                    data-50="transform: translateY(0px);"
+                    data-3500="transform: translateY(-600px);">
+                </div>
+                <div class="cloud-small" id="cloud6"
+                    data-60="transform: translateY(0px);"
+                    data-2000="transform: translateY(-450px);">
+                </div>
+                <div class="cloud-small" id="cloud7"
+                    data-70="transform: translateY(0px);"
+                    data-2000="transform: translateY(-600px);">
+                </div>
             </section>
-            <section id="fields" data-1000="-webkit-transform: translateY(800px);" data-2000="-webkit-transform: translateY(0px);">
+            <section id="fields"
+                        data-500="transform: translateY(100%);" data-1000="transform: translateY(0%);"
+                        data-1800="transform: translateY(0%);" data-2000="transform: translateY(-32%);">
             <div class="base-fields">
-                <div class="field-1" data-1000="bottom: -100px" data-2000="bottom: 0px"></div>
-                <div class="field-2" data-1000="bottom: -160px" data-2000="bottom: 120px"></div>
-                <div class="field-3" data-1000="bottom: -800px" data-2000="bottom: 0px"></div>
+                <div class="field-1" data-500="bottom: -100px" data-1000="bottom: 0px"></div>
+                <div class="field-2" data-500="bottom: -160px" data-1000="bottom: 120px"></div>
+                <div class="field-3" data-500="bottom: -800px" data-1000="bottom: 0px"></div>
             </div>
             </section>
-            <section id="front-field">
-                <!-- <div class="ground"></div> -->
+            <section id="front-field" data-1000="transform: translateY(100%);" data-2000="transform: translateY(0%);">
+            <div class="center-wrap">
+                <div class="corn-group">
+                    <div class="corn corn-left"></div>
+                    <div class="corn corn-center"></div>
+                    <div class="corn corn-right"></div>
+                    <div class="corn-ground"></div>
+                </div>
+            </div>
+            <div class="ground"></div>
             </section>
         </div>
     </body>

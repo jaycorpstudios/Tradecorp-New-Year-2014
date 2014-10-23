@@ -22,6 +22,7 @@
 <meta name="Author" content="Jaycorp Studios, jaycorpstudios@me.com">
 
 <link rel="stylesheet" href="<?= URL_BASE; ?>css/normalize.css">
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oswald' type='text/css'>
 <link rel="stylesheet" href="<?= URL_BASE; ?>css/style.css">
 
 <!-- Liberias JS Generales -->

@@ -33,24 +33,11 @@ TABLA DE CONTENIDOS
 @anchoMovilVertical: 480px;
 @anchoLaptop: 1280px;
 
-/* 1.2- Fuentes */
-
-@font-face {
-	font-family: 'nexa';
-	src: url('fonts/nexa.eot');
-	src: url('fonts/nexa.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/nexa.woff') format('woff'),
-	     url('fonts/nexa.ttf') format('truetype'),
-	     url('fonts/nexa.svg#nexa') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
 /* 2.- Estructura general (Grid) */
 
 body{
 	background: rgb(221,241,250);
-	font-family: 'roboto';
+	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	color: rgb(255,255,255);
 	height: 6000px;
@@ -86,7 +73,7 @@ body{
 	}
 }
 
-.box(@width: 100px, @height: 100px, @left: auto, @top: auto){
+.absoluteBox(@width: 100px, @height: 100px, @left: auto, @top: auto){
 	width: @width;
 	height: @height;
 	display: inline-block;
@@ -117,26 +104,40 @@ body{
 	top: 0;
 	left: 0;
 	overflow: hidden;
+	#texts{
+		.text{
+			.absoluteBox(500px, 200px, 50%, 50%);
+			margin: -150px 0 0 -250px;
+			text-align: center;
+			font-size: 74px;
+			.text-shadow (0 1px 30px rgba(0, 0, 0, 0.7));
+			z-index: 10000;
+			opacity: 0;
+			span{
+				font-size: 140%;
+			}
+		}
+	}
 	#sky{
 		.sun{
-			.box(275px, 275px, 50px, 50px);
+			.absoluteBox(275px, 275px, 50px, 50px);
 			.at2x('@{imagesFolder}sun.png', 275px, 275px);
 		}
 		.cloud-1{
-			.box(318px, 224px);
+			.absoluteBox(318px, 224px);
 			.at2x('@{imagesFolder}cloud1.png', 318px, 224px);
 		}
 		.cloud-2{
-			.box(358px, 272px);
+			.absoluteBox(358px, 272px);
 			.at2x('@{imagesFolder}cloud2.png', 358px, 272px);
 		}
 		.cloud-small{
-			.box(117px, 88px);
+			.absoluteBox(117px, 88px);
 			.at2x('@{imagesFolder}cloud-small.png', 117px, 88px);
 		}
 		#cloud1{ left: 100px; top: 380px; };
 		#cloud2{ top: 150px; right: 100px; };
-		#cloud3{ left: 50%; top: 350px;};
+		#cloud3{ left: 75%; top: 350px;};
 		#cloud4{ right: -190px; top: 690px; };
 		#cloud5{ left: -100px; top: 700px;};
 		#cloud6{ bottom: 60px; left: 150px;};
@@ -172,10 +173,43 @@ body{
 		}
 	}
 	#front-field{
+		.center-wrap{
+			width: 500px;
+			height: 500px;
+			position: absolute;
+			//border: solid 1px white;
+			top: 50%;
+			left: 50%;
+			z-index: 3000;
+			margin: -250px 0 0 -250px;
+			.corn{
+				.absoluteBox(446px, 366px);
+				.at2x('@{imagesFolder}corns.png', 446px, 366px);
+				bottom: 0px;
+				z-index: 3001;
+				transition: .5s;
+				transform-origin: center 366px;
+			}
+			.corn-left{
+				left: -340px;
+			}
+			.corn-center{
+				left: 30px;
+			}
+			.corn-right{
+				left: 400px;
+			}
+			.corn-ground{
+				.absoluteBox(1433px, 174px, 50%);
+				.at2x('@{imagesFolder}ground.png', 1433px, 174px);
+				margin: 0 0 0 -716px;
+				bottom: -117px;
+			}
+		}
 		.ground{
 			width: 100%;
-			height: 50px;
-			background: rgb(209,126,59);
+			height: 40%;
+			.gradient(rgb(209,126,59),rgb(145,88,32));
 			position: absolute;
 			bottom: 0px;
 		}
