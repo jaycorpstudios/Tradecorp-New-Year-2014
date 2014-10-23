@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+      
+Developer: Ing. Juan José Benítez (Jay).
+Site: http://www.tradecorp.com.mx
+
+# THANKS
+
+    Name: http://www.jaycorpstudios.com
+
+# TECHNOLOGY COLOPHON
+
+Last update: 2014/08/15                             
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery, etc.
+Software: Sublime Text 3

@@ -1,0 +1,263 @@
+/*
+
+Description: Hoja de Estilos para la felicitación de fin de año.
+Author: Jay
+Version: 1.0
+Fecha: Octubre de 2014
+
+TABLA DE CONTENIDOS
+
+0.- Imports
+1.- Estilos Generales
+	1.1- Variables Globales
+	1.2- Fuentes 
+2.- Estructura general
+3.- Animaciones
+*/
+/* 0.- Imports */
+/* 1.- Estilos Generales */
+/* 1.1- Variables Globales */
+/* 1.2- Fuentes */
+@font-face {
+  font-family: 'nexa';
+  src: url('fonts/nexa.eot');
+  src: url('fonts/nexa.eot?#iefix') format('embedded-opentype'), url('fonts/nexa.woff') format('woff'), url('fonts/nexa.ttf') format('truetype'), url('fonts/nexa.svg#nexa') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 2.- Estructura general (Grid) */
+body {
+  background: #ddf1fa;
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #ffffff;
+  height: 6000px;
+  overflow: auto;
+  margin: 0;
+}
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+@media (max-width: 640px) {
+  .oculto_en_movil {
+    display: none;
+  }
+}
+@media (min-width: 641px) and (max-width: 1024px) {
+  .oculto_en_tablet {
+    display: none;
+  }
+}
+@media (min-width: 1025px) {
+  .oculto_en_desktop {
+    display: none;
+  }
+}
+@media (min-width: 641px) {
+  .visible_en_movil {
+    display: none;
+  }
+}
+#tracking {
+  background: black;
+  color: white;
+  width: 40px;
+  height: 26px;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Verdana';
+  font-size: 12px;
+  z-index: 10000;
+}
+#wrapper {
+  background-color: #005c97;
+  background: -webkit-gradient(linear, left top, left bottom, from(#005c97), to(#ddf1fa));
+  background: -webkit-linear-gradient(top, #005c97, #ddf1fa);
+  background: -moz-linear-gradient(top, #005c97, #ddf1fa);
+  background: -ms-linear-gradient(top, #005c97, #ddf1fa);
+  background: -o-linear-gradient(top, #005c97, #ddf1fa);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+#wrapper #sky .sun {
+  width: 275px;
+  height: 275px;
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  background-image: url('../imagenes/sun.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #sky .sun {
+    background-image: url("../imagenes/sun@2x.png");
+    background-size: 275px 275px;
+  }
+}
+#wrapper #sky .cloud-1 {
+  width: 318px;
+  height: 224px;
+  display: inline-block;
+  position: absolute;
+  left: auto;
+  top: auto;
+  background-image: url('../imagenes/cloud1.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #sky .cloud-1 {
+    background-image: url("../imagenes/cloud1@2x.png");
+    background-size: 318px 224px;
+  }
+}
+#wrapper #sky .cloud-2 {
+  width: 358px;
+  height: 272px;
+  display: inline-block;
+  position: absolute;
+  left: auto;
+  top: auto;
+  background-image: url('../imagenes/cloud2.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #sky .cloud-2 {
+    background-image: url("../imagenes/cloud2@2x.png");
+    background-size: 358px 272px;
+  }
+}
+#wrapper #sky .cloud-small {
+  width: 117px;
+  height: 88px;
+  display: inline-block;
+  position: absolute;
+  left: auto;
+  top: auto;
+  background-image: url('../imagenes/cloud-small.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #sky .cloud-small {
+    background-image: url("../imagenes/cloud-small@2x.png");
+    background-size: 117px 88px;
+  }
+}
+#wrapper #sky #cloud1 {
+  left: 100px;
+  top: 380px;
+}
+#wrapper #sky #cloud2 {
+  top: 150px;
+  right: 100px;
+}
+#wrapper #sky #cloud3 {
+  left: 50%;
+  top: 350px;
+}
+#wrapper #sky #cloud4 {
+  right: -190px;
+  top: 690px;
+}
+#wrapper #sky #cloud5 {
+  left: -100px;
+  top: 700px;
+}
+#wrapper #sky #cloud6 {
+  bottom: 60px;
+  left: 150px;
+}
+#wrapper #sky #cloud7 {
+  bottom: 25px;
+  right: 200px;
+}
+#wrapper #fields .base-fields {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  bottom: 0;
+}
+#wrapper #fields .base-fields .field-1 {
+  position: absolute;
+  width: 100%;
+  height: 387px;
+  bottom: 0;
+  z-index: 2005;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-image: url('../imagenes/field1.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #fields .base-fields .field-1 {
+    background-image: url("../imagenes/field1@2x.png");
+    background-size: 2571px 523px;
+  }
+}
+#wrapper #fields .base-fields .field-2 {
+  position: absolute;
+  width: 100%;
+  height: 387px;
+  bottom: 120px;
+  z-index: 2004;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-image: url('../imagenes/field2.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #fields .base-fields .field-2 {
+    background-image: url("../imagenes/field2@2x.png");
+    background-size: 2571px 523px;
+  }
+}
+#wrapper #fields .base-fields .field-3 {
+  position: absolute;
+  width: 100%;
+  height: 523px;
+  bottom: 0px;
+  z-index: 2003;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-image: url('../imagenes/field3.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #wrapper #fields .base-fields .field-3 {
+    background-image: url("../imagenes/field3@2x.png");
+    background-size: 2571px 523px;
+  }
+}
+#wrapper #front-field .ground {
+  width: 100%;
+  height: 50px;
+  background: #d17e3b;
+  position: absolute;
+  bottom: 0px;
+}
+section {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* 9.- Animaciones */
+@-webkit-keyframes menu_in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-800px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateX(-500px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+  }
+}

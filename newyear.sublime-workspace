@@ -1,0 +1,1308 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ng-repeat-",
+				"ng-repeat-start	AngularJS"
+			],
+			[
+				"ng-repeat",
+				"ng-repeat-end	AngularJS"
+			],
+			[
+				"ex",
+				"explosion"
+			],
+			[
+				"op",
+				"opcionMaquina"
+			],
+			[
+				"opc",
+				"opcionUsuario"
+			],
+			[
+				"ti",
+				"Tijeras"
+			],
+			[
+				"P",
+				"Piedra"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"coverC",
+				"coverCertificacionLoaded"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"rgb",
+				"rgb(r,g,b)"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"cl",
+				"color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"Dancin",
+				"DancingScript"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"tx",
+				"text-align"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"comm",
+				"comment_safe"
+			],
+			[
+				"bad",
+				"badwordsArray"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"s",
+				"showstopper"
+			],
+			[
+				"pa",
+				"palabrasAFiltrar"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"badwo",
+				"badword1"
+			],
+			[
+				"esta",
+				"estatus"
+			],
+			[
+				"row",
+				"row_field"
+			],
+			[
+				"comen",
+				"comentario"
+			],
+			[
+				"com",
+				"comentario"
+			],
+			[
+				"no",
+				"nombre"
+			],
+			[
+				"w",
+				"wpdb"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"fi",
+				"first	first"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"fe",
+				"fecha_comentario"
+			],
+			[
+				"f",
+				"fecha_comentario"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"en",
+				"utf8_encode"
+			],
+			[
+				"ut",
+				"utf8_encode"
+			],
+			[
+				"po",
+				"post_id"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"su",
+				"submit	submit"
+			],
+			[
+				"Comentarios",
+				"ComentariosLibres"
+			],
+			[
+				"__",
+				"__FILE__"
+			],
+			[
+				"front",
+				"front_end_comment_ajax_return"
+			],
+			[
+				"fecha",
+				"fecha_comentario"
+			],
+			[
+				"coment",
+				"comentario"
+			],
+			[
+				"come",
+				"comentarios"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"comenta",
+				"comentarios"
+			],
+			[
+				"comentar",
+				"comentarios_init"
+			],
+			[
+				"Comentario",
+				"ComentariosLibres"
+			],
+			[
+				"go",
+				"goToNext"
+			],
+			[
+				"importar",
+				"importarLiberiaJS  (function)"
+			],
+			[
+				"o",
+				"opcionesInicio"
+			],
+			[
+				"contened",
+				"contenedor_inicio"
+			],
+			[
+				"menu",
+				"menuOpen"
+			],
+			[
+				"r",
+				"rgb(r,g,b)"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"sca",
+				"scaleY"
+			],
+			[
+				"e.c",
+				"e.currentTarget.name"
+			],
+			[
+				"nu",
+				"numDiapositiva"
+			],
+			[
+				"n",
+				"numDiapositiva"
+			],
+			[
+				"is",
+				"isMenuOpen"
+			],
+			[
+				"contenedor.",
+				"contenedor.numChildren-1"
+			],
+			[
+				"p",
+				"primeraDiapositiva"
+			],
+			[
+				"c",
+				"contenedor"
+			],
+			[
+				"diapo",
+				"diapositivaActual"
+			],
+			[
+				"stage.stage",
+				"stage.stageHeight"
+			],
+			[
+				"boton",
+				"botonAnterior"
+			],
+			[
+				"bo",
+				"botonSiguiente"
+			],
+			[
+				"num",
+				"numDiapositivas"
+			],
+			[
+				"dia",
+				"diapositivaActual"
+			],
+			[
+				"carg",
+				"cargarDiapositiva"
+			],
+			[
+				"car",
+				"cargarDiapositiva"
+			],
+			[
+				"fact",
+				"factAlto"
+			],
+			[
+				"med",
+				"medidasDiapositiva"
+			],
+			[
+				"this.",
+				"this.botonSiguiente"
+			],
+			[
+				"sta",
+				"stageResize"
+			],
+			[
+				"Stage",
+				"Stage.scaleMode"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"img",
+				"img	img"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"te",
+				"temp"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"get_co",
+				"get_comment_author_link"
+			],
+			[
+				"dire",
+				"directory"
+			],
+			[
+				"dat",
+				"date"
+			],
+			[
+				"html",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"va",
+				"valign	Attr"
+			],
+			[
+				"es",
+				"es_hijo"
+			],
+			[
+				"t",
+				"tiene_oro"
+			],
+			[
+				"tiene",
+				"tiene_plata"
+			],
+			[
+				"marM",
+				"marcMexicoIn"
+			],
+			[
+				"Separador",
+				"separador_internacional"
+			],
+			[
+				"imagen",
+				"imagen_portada"
+			],
+			[
+				"set",
+				"setFillColor()	VectorObject"
+			],
+			[
+				"in",
+				"insert()	GroupObject"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"storyboard.d",
+				"storyboard.disableAutoPurge	storyboard"
+			],
+			[
+				"st",
+				"storyboard"
+			],
+			[
+				"event.",
+				"event.target"
+			],
+			[
+				"display.new",
+				"display.newRect()	display"
+			],
+			[
+				"to",
+				"touchListener"
+			],
+			[
+				"ad",
+				"addEventListener"
+			],
+			[
+				"iso",
+				"isoSprite"
+			],
+			[
+				"col",
+				"colgroup	<colgroup>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ssa",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery.ajax"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssjq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"font",
+				"Snippet: font-face"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"ssph",
+				"Set Syntax: PHP"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ssp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				":while",
+				"Snippet: while …"
+			],
+			[
+				"snippet",
+				"Snippet: while …"
+			],
+			[
+				"snippet:",
+				"Snippet: SERVER['…']"
+			],
+			[
+				"functi",
+				"Snippet: function …"
+			],
+			[
+				"function",
+				"Snippet: function …"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"setSyntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"set Syntax: Action",
+				"Set Syntax: ActionScript 3"
+			],
+			[
+				"set Syntax Ac",
+				"Set Syntax: ActionScript 3"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"rtf",
+				"SublimeHighlight: view as RTF"
+			],
+			[
+				"hight",
+				"SublimeHighlight: view as RTF"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"reset",
+				"Snippet: cssreset"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"set S",
+				"Set Syntax: HTML5"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Volumes/Diseño/Tradecorp Global/España/Headers Newsletter/html/header-mkt.html",
+		"/Volumes/Diseño/Tradecorp Global/España/Headers Newsletter/html/header-mkt.html",
+		"/Users/Jay/Downloads/htms-63728638signature.htm",
+		"/Volumes/Diseno/Tradecorp Global/España/Headers Newsletter/html/header-mkt.html",
+		"/Users/Jay/Desktop/Repositorios/app/styles/main.less",
+		"/Users/Jay/Desktop/Repositorios/app/scripts/directives/skrollr.dir.js",
+		"/Users/Jay/Desktop/Repositorios/app/index.html",
+		"/Users/Jay/Desktop/Repositorios/app/views/intro.html",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/bower.json",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/app/views/intro.html",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/app/styles/main.less",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/app/index.html",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/app/styles/mixins.less",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/app/styles/main.css",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/app/views/main.html",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/app/scripts/controllers/main.js",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/bower_components/es5-shim/bower.json",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/.tmp/styles/main.css",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/Gruntfile.js",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/test/karma.conf.js",
+		"/Users/jaycorpstudios/Desktop/Jaycorp Studios Proyects/repositorios/jjbenitez_resume/package.json",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/website/develop/package.json",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/website/develop/.gitignore",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/website/develop/gruntfile.js",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/website/develop/.git/.gitignore",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/FrontEnd/AngularJs/Pockedex/package.json",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/website/develop/gruntfile.json",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/website/parallax/parallax/index.html",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/website/parallax/parallax/js/_main.js",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/website/parallax/parallax/js/skrollr.js",
+		"/Users/jaycorpstudios/Desktop/Respaldo Cel/iPhone M/Backup/b6cbc306acf9bdddb6790a3f6ca6969bb0df715f/3cebd19a7e1c1bfca2f30e33c6375ae61bd1cbbc",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/muestra/albinotonnina/app/index.html",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/muestra/albinotonnina/app/styles/animation.css",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/muestra/albinotonnina/app/styles/main.css",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/muestra/albinotonnina/README.md",
+		"/Users/jaycorpstudios/Dropbox/jaycorp studios/Cv/muestra/albinotonnina/src/svg/timing.json",
+		"/Users/jaycorpstudios/Desktop/Proyecto Git Prueba/index.html",
+		"/Volumes/JAVY/Programacion basica/Ciclos/ciclos.html",
+		"/Volumes/JAVY/Programacion basica/Clase 2/document.js",
+		"/Volumes/JAVY/Programacion basica/Clase 2/dom.html",
+		"/Users/jaycorpstudios/Dropbox/websites/fitness/webpanel/config.php",
+		"/Users/jaycorpstudios/Downloads/Clase6/public/app.min.js",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/FrontEnd/AngularJs/Pockedex/public/index.html",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/FrontEnd/AngularJs/Pockedex/public/js/app.js",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/FrontEnd/AngularJs/Pockedex/node_modules/grunt/node_modules/underscore.string/test/test_standalone.html",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/FrontEnd/AngularJs/Pockedex/node_modules/grunt/node_modules/underscore.string/test/strings_standalone.js",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/FrontEnd/AngularJs/Pockedex/node_modules/grunt/node_modules/colors/themes/winston-dark.js",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/FrontEnd/AngularJs/Pockedex/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/type-is/node_modules/mime-types/SOURCES.md",
+		"/Volumes/JAVY/Programacion basica/Clase 2/array.html",
+		"/Volumes/JAVY/Programacion basica/Clase 2/matriz.js",
+		"/Volumes/JAVI/Programacion/array.html",
+		"/Volumes/JAVI/Programacion/matriz.js",
+		"/Applications/League of Legends.app/Contents/LoL/RADS/system/locale.cfg",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/js/librerias/pageNavigation-1.1.js",
+		"/Volumes/JAVY/Programacion basica/Clase 2/write.html",
+		"/Volumes/JAVY/Programacion basica/clase 1.html",
+		"/Users/jaycorpstudios/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/JAVY/Programacion basica/js/Piedra.js",
+		"/Volumes/JAVY/Programacion basica/Papel.html",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/Backend/primeros pasos/app/db/migrate/20140915211230_create_awards.rb",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/Backend/primeros pasos/app/app/models/start.rb",
+		"/Users/jaycorpstudios/Dropbox/Developer/Mejorandola/Backend/primeros pasos/app/app/models/movie.rb",
+		"/Users/jaycorpstudios/Dropbox/asesoria_solo/2014-09-09/Git/ajax.js",
+		"/Users/jaycorpstudios/Dropbox/asesoria_solo/2014-09-09/Git/index.html",
+		"/Users/jaycorpstudios/Dropbox/asesoria_solo/2014-09-09/Git/.git/info/exclude",
+		"/Users/jaycorpstudios/Dropbox/asesoria_solo/2014-09-09/Git/.git/config",
+		"/Volumes/JAVY/Programacion basica/codigo.js",
+		"/Volumes/JAVY/programacion basica",
+		"/Users/jaycorpstudios/Dropbox/asesoria_solo/proyecto/index.html",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/js/funciones/js_general.js",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/vistas/bloques/head_general.php",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/js/funciones/js_index.js",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/vistas/vs_index.php",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/css/style.less",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/.htaccess",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/config.php",
+		"/Users/jaycorpstudios/Dropbox/websites/sitio/wp-content/themes/soloempleos/posts.php",
+		"/Users/jaycorpstudios/Dropbox/websites/sitio/wp-content/themes/soloempleos/single.php",
+		"/Users/jaycorpstudios/Dropbox/websites/sitio/wp-content/themes/soloempleos/europa.php",
+		"/Users/jaycorpstudios/Dropbox/websites/sitio/wp-content/themes/twentyfourteen/header.php",
+		"/Users/jaycorpstudios/Dropbox/websites/sitio/wp-content/themes/soloempleos/footer.php",
+		"/Users/jaycorpstudios/Dropbox/websites/sitio/wp-content/themes/soloempleos/header.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/css/style.css",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/ninios.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/mamabebe.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/prenatal.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/bloques/servicios.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/psicologia.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/floresdebach.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/cococina.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/reflexologia.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/bloques/footer.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/kundalini.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/contacto.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/horarios.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/bloques/tabla.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/bloques/formulario.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte_old/css/stylos.css",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/modelos/md_demo.php",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/htaccess_server",
+		"/Users/jaycorpstudios/Dropbox/websites/organic/site/entidades/ent_articulo.php",
+		"/Users/jaycorpstudios/Dropbox/asesoria_solo/SOLO EMPLEOS/jay/index.html",
+		"/Users/jaycorpstudios/Dropbox/asesoria_solo/SOLO EMPLEOS/jay/css/style.css",
+		"/Users/jaycorpstudios/Dropbox/asesoria_solo/SOLO EMPLEOS/jay/css/unsemantic-grid-responsive.css",
+		"/Users/jaycorpstudios/Downloads/unsemantic-master 2/assets/stylesheets/unsemantic-grid-responsive.css",
+		"/Users/jaycorpstudios/Downloads/960-Grid-System-master 2/code/css/960.css",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/vs_contacto.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/librerias/send.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/js/funciones/js_contacto.js",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/clases/Base.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/controles/ctr_index.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/controles/if_control.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/controles/p_control.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/bloques/formulario.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/vs_reflexologia.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/psicologia.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/prenatal.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/ninios.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/mamabebe.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/kundalini.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/horarios.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/floresdebach.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/contacto.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/vs_404.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/css/style.css",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/vs_adultos.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/cococina.php",
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/bloques/tabla.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	",
+			"..........................................................................................................",
+			".........................................................................................................",
+			"........................................................................................................",
+			"......................................................................................................................................................................",
+			".....................................................................................................................................................................",
+			"....................................................................................................................................................................",
+			"...................................................................................................................................................................",
+			"..................................................................................................................................................................",
+			".................................................................................................................................................................",
+			"................................................................................................................................................................",
+			"...............................................................................................................................................................",
+			"..............................................................................................................................................................",
+			".............................................................................................................................................................",
+			"............................................................................................................................................................",
+			"...........................................................................................................................................................",
+			"..........................................................................................................................................................",
+			".........................................................................................................................................................",
+			"........................................................................................................................................................",
+			".......................................................................................................................................................",
+			"......................................................................................................................................................",
+			".....................................................................................................................................................",
+			"....................................................................................................................................................",
+			"...................................................................................................................................................",
+			"..................................................................................................................................................",
+			".................................................................................................................................................",
+			"................................................................................................................................................",
+			"...............................................................................................................................................",
+			"..............................................................................................................................................",
+			".............................................................................................................................................",
+			"............................................................................................................................................",
+			"...........................................................................................................................................",
+			"..........................................................................................................................................",
+			".........................................................................................................................................",
+			"........................................................................................................................................",
+			".......................................................................................................................................",
+			"......................................................................................................................................",
+			".....................................................................................................................................",
+			"....................................................................................................................................",
+			"...................................................................................................................................",
+			"..................................................................................................................................",
+			".................................................................................................................................",
+			"................................................................................................................................",
+			"...............................................................................................................................",
+			"..............................................................................................................................",
+			".............................................................................................................................",
+			"............................................................................................................................",
+			"...........................................................................................................................",
+			"..........................................................................................................................",
+			".........................................................................................................................",
+			"........................................................................................................................",
+			".......................................................................................................................",
+			"......................................................................................................................",
+			"scope",
+			"data",
+			"skrollrTag",
+			"compass",
+			"comp",
+			"serve:",
+			"serve",
+			"videoCover",
+			"Loaded",
+			"opciones",
+			"Soluciones",
+			"touch",
+			"loader",
+			"Loader",
+			"loader",
+			"255",
+			"3.-",
+			"Estructura genera",
+			"table_cell",
+			"reajustarAltura",
+			"modernizr-2.6.2.min",
+			"css",
+			"<li><a href=\"adultos.php\"><span>7:00 pm - Yoga Adultos</span></a></li>",
+			"<li><a href=\"adultos.php\"><span>8:30 pm - Yoga Adultos</span></a></li>",
+			"<li><a href=\"adultos.php\"><span>9:30 am - Yoga Adultos</span></a></li>",
+			"<li><a href=\"adultos.php\"><span>7:00 am - Yoga Adultos</span></a></li>",
+			"<a href=\"adultos.php\">Yoga adultos</a>",
+			"gray",
+			"horarios",
+			"#662929",
+			"h1",
+			"#6f6f6f",
+			"#b65f62",
+			"ul.Clases li im",
+			"img:hover",
+			".grid-container",
+			"1s",
+			"124, 124, 124,",
+			"25px",
+			"fondo",
+			"40px",
+			"@media",
+			"width",
+			"@media",
+			"logo",
+			".clear",
+			"include",
+			"images",
+			"imagenes",
+			"imagenes/",
+			"<a href=\"",
+			"include",
+			"imagenes/",
+			".php",
+			"src=\"imagenes",
+			"jpg",
+			"horarios",
+			"table",
+			"textos",
+			"horarios",
+			"horarios_min",
+			"<a href=\"kundalini.php\">Kundalini Yoga</a>",
+			"footer",
+			":hover",
+			"horarios",
+			"<td >",
+			"class=\"bordeClase\"",
+			"align=\"center\" valign=\"middle\"",
+			"img",
+			"cajaPrincipales",
+			"Principales",
+			"</li>",
+			"</a>",
+			"<a",
+			"<li>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"#808080",
+			"#d05763",
+			"imagenes/estilo/",
+			"",
+			"src=\"<?echo URL_BASE;?>imagenes",
+			"<td>",
+			"",
+			"infotrade/mexico/36/",
+			"http://www.tradecorp.com.br/infotrade_html/",
+			"http://www.tradecorp.com.br/infotrade_html/13/",
+			"SAIBA MAÍS",
+			"#418543",
+			"BookReader_mx",
+			"<img src=\"http://www.tradecorp.com.mx/infotrade/img/",
+			"",
+			"boletin34",
+			"/comunicacion/",
+			"http://www.tradecorp.com.mx/descargas/mkt/etiquetas/",
+			"HelveticaNeueLTPro-BlkCn",
+			"boletin33",
+			":",
+			"",
+			" ",
+			"",
+			"boletin31"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "newyear.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"header-si",
+				"wp-content/themes/solofutbolmx/header-single.php"
+			],
+			[
+				"single.php",
+				"wp-content/themes/solofutbolmx/single.php"
+			],
+			[
+				"post-templa",
+				"wp-includes/post-template.php"
+			],
+			[
+				"comm",
+				"solofutbolmx/comments.php"
+			],
+			[
+				"come",
+				"ComentariosLibres.php"
+			],
+			[
+				"wp-includes/wid",
+				"wp-includes/widgets.php"
+			],
+			[
+				"widgets.php",
+				"wp-includes/widgets.php"
+			],
+			[
+				"widgets",
+				"wp-admin/includes/widgets.php"
+			],
+			[
+				"widg",
+				"wp-admin/widgets.php"
+			],
+			[
+				"config",
+				"wp-config.php"
+			],
+			[
+				"ht",
+				".htaccess"
+			],
+			[
+				".ht",
+				".htaccess"
+			],
+			[
+				"vs_cre",
+				"vistas/vs_creative.php"
+			],
+			[
+				"vs_inde",
+				"vistas/vs_index.php"
+			],
+			[
+				"md_",
+				"modelos/md_lugares.php"
+			],
+			[
+				"mode",
+				"modelos/md_articulos.php"
+			],
+			[
+				"ent_",
+				"entidades/ent_publicidad.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

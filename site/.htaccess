@@ -1,0 +1,43 @@
+# Archivo de configuración .htaccess
+# Establece la configuración de como serán procesados los URL de las peticiones
+# a la aplicación, principalmente útil en la carga de los archivos de vista
+# directamente.
+# Versión 1.0
+# Autor Jay
+#
+# Configuración: se deben cambiar las cadenas PRUEBA por el nombre de la carpeta en
+# la cual reside la aplicación
+# Ejemplo:
+# RewriteRule   ^([A-Za-z0-9_]+)$     /%PRUEBA%/$1/ [R,L]
+# RewriteRule   ^([A-Za-z0-9_]+)$     /nombreAPP/$1/ [R,L]
+
+php_value upload_max_filesize 30M
+AddType video/webm .webm
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+
+# Access control
+Header set Access-Control-Allow-Origin "*"
+
+# Se inicializa el módulo mod_rewrite
+RewriteEngine On
+
+#Redirigir vistas
+
+# Lenguaje
+RewriteRule   ^([A-Za-z0-9_]+)$     /newyear/site/$1/ [R,L,QSA] 
+RewriteRule   ^([a-zA-Z0-9_]+)/$    index.php?destino=vista&vista=index&lenguaje=$1 [L,QSA]
+
+#Lenguaje + sección
+RewriteRule   ^([A-Za-z0-9_]+)/([A-Za-z0-9_]+)$     /newyear/site/$1/#$2 [R,L,QSA,NE] 
+RewriteRule   ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)$    index.php?destino=vista&vista=index&lenguaje=$1 [L,QSA]
+
+# Prohibir acceso a config.php
+RewriteRule ^(config.php)$ index.php?destino=404 [L]
+
+# Prohibir acceso directo a carpetas de la aplicación
+RewriteRule (/controles|/libreriasPHP|/modelos|/vistas|/entidades)+   index.php?destino=404 [L]
+
+
+# redirigir todos los errores 404
+ErrorDocument 404 /newyear/site/index.php?destino=404

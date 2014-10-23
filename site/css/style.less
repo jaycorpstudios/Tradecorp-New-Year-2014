@@ -1,0 +1,207 @@
+/*
+
+Description: Hoja de Estilos para la felicitación de fin de año.
+Author: Jay
+Version: 1.0
+Fecha: Octubre de 2014
+
+TABLA DE CONTENIDOS
+
+0.- Imports
+1.- Estilos Generales
+	1.1- Variables Globales
+	1.2- Fuentes 
+2.- Estructura general
+3.- Animaciones
+*/
+
+/* 0.- Imports */
+
+@import 'retina';
+@import "mixins";
+
+/* 1.- Estilos Generales */
+
+
+/* 1.1- Variables Globales */
+
+@imagesFolder: '../imagenes/';
+
+@anchoTabletHorizontal: 1024px;
+@anchoTabletVertical: 768px;
+@anchoMovilHorizontal: 640px;
+@anchoMovilVertical: 480px;
+@anchoLaptop: 1280px;
+
+/* 1.2- Fuentes */
+
+@font-face {
+	font-family: 'nexa';
+	src: url('fonts/nexa.eot');
+	src: url('fonts/nexa.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/nexa.woff') format('woff'),
+	     url('fonts/nexa.ttf') format('truetype'),
+	     url('fonts/nexa.svg#nexa') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* 2.- Estructura general (Grid) */
+
+body{
+	background: rgb(221,241,250);
+	font-family: 'roboto';
+	font-size: 18px;
+	color: rgb(255,255,255);
+	height: 6000px;
+	overflow: auto;
+	margin: 0;
+}
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+@media (max-width: @anchoMovilHorizontal){
+	.oculto_en_movil{
+		display: none;
+	}
+}
+@media (min-width: (@anchoMovilHorizontal+1) ) and (max-width: @anchoTabletHorizontal){
+	.oculto_en_tablet{
+		display: none;
+	}
+}
+@media (min-width: (@anchoTabletHorizontal+1) ){
+	.oculto_en_desktop{
+		display: none;
+	}
+}
+@media (min-width: (@anchoMovilHorizontal+1) ){
+	.visible_en_movil{
+		display: none;
+	}
+}
+
+.box(@width: 100px, @height: 100px, @left: auto, @top: auto){
+	width: @width;
+	height: @height;
+	display: inline-block;
+	position: absolute;
+	left: @left;
+	top: @top;
+}
+//Para el trackin termporal
+#tracking{
+	background: black;
+	color: white;
+	width: 40px;
+	height: 26px;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Verdana';
+	font-size: 12px;
+	z-index: 10000;
+}
+
+#wrapper{
+	.gradient(rgb(0,92,151),rgb(221,241,250));
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	#sky{
+		.sun{
+			.box(275px, 275px, 50px, 50px);
+			.at2x('@{imagesFolder}sun.png', 275px, 275px);
+		}
+		.cloud-1{
+			.box(318px, 224px);
+			.at2x('@{imagesFolder}cloud1.png', 318px, 224px);
+		}
+		.cloud-2{
+			.box(358px, 272px);
+			.at2x('@{imagesFolder}cloud2.png', 358px, 272px);
+		}
+		.cloud-small{
+			.box(117px, 88px);
+			.at2x('@{imagesFolder}cloud-small.png', 117px, 88px);
+		}
+		#cloud1{ left: 100px; top: 380px; };
+		#cloud2{ top: 150px; right: 100px; };
+		#cloud3{ left: 50%; top: 350px;};
+		#cloud4{ right: -190px; top: 690px; };
+		#cloud5{ left: -100px; top: 700px;};
+		#cloud6{ bottom: 60px; left: 150px;};
+		#cloud7{ bottom: 25px; right: 200px;};
+	}
+	#fields{
+		.field-position(@height: 387px; @bottom: 0; @z-index: 2000;){
+			position: absolute;
+			width: 100%;
+			height: @height;
+			bottom: @bottom;
+			z-index: @z-index;
+			background-position: center 0;
+			background-repeat: no-repeat;
+		}
+		.base-fields{
+			width: 100%;
+			height: 600px;
+			position: absolute;
+			bottom: 0;
+			.field-1{
+				.field-position(387px, 0, 2005);
+				.at2x('@{imagesFolder}field1.png', 2571px, 523px);
+			}
+			.field-2{
+				.field-position(387px, 120px, 2004);
+				.at2x('@{imagesFolder}field2.png', 2571px, 523px);
+			}
+			.field-3{
+				.field-position(523px, 0px, 2003);
+				.at2x('@{imagesFolder}field3.png', 2571px, 523px);
+			}
+		}
+	}
+	#front-field{
+		.ground{
+			width: 100%;
+			height: 50px;
+			background: rgb(209,126,59);
+			position: absolute;
+			bottom: 0px;
+		}
+	}
+}
+section{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/* 9.- Animaciones */
+@-webkit-keyframes menu_in{
+	0%{
+		opacity: 0;
+		-webkit-transform: translateX(-800px);
+	}
+	50%{
+		opacity: 0;
+		-webkit-transform: translateX(-500px);
+	}
+	100%{
+		opacity: 1;
+		-webkit-transform: translateX(0px);
+	}
+}
