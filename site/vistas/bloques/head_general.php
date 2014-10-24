@@ -25,6 +25,11 @@
 <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oswald' type='text/css'>
 <link rel="stylesheet" href="<?= URL_BASE; ?>css/style.css">
 
+<script type="text/javascript">
+    var urlBase = "<?php Base::printUrl(); ?>";
+    var lenguaje = "<?php echo $_GET['lenguaje']?>";
+</script>
+
 <!-- Liberias JS Generales -->
 <?php
     //Base::importarLibreriaPHP('Mobile_Detect');
@@ -38,9 +43,7 @@
     Base::importarFuncionesJS('general');
 ?>
 
-<script type="text/javascript">
-    var urlBase = "<?php Base::printUrl(); ?>";
-</script>
+
 
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

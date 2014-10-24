@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var lenguaje = 'en';
+	lenguaje = (lenguaje === "")? "en" : lenguaje;
 	var texts = [];
 	var english = [
 		'<span>2014</span><br>is about to end…',
@@ -9,12 +9,21 @@ $(document).ready(function(){
 		'That we overcame together…',
 		'Now it is time to reap what we sowed…',
 		'And set new challenges for 2015.',
-		'Tradecorp wishes you a happy 2015!',
+		'wishes you a happy <span>2015!</span>'
 	];
-	var spanish = [];
+	var spanish = [
+		'<span>2014</span><br>esta a punto de terminar…',
+		'Y las experiencias vividas nos han hecho un poco mas sabios…',
+		'Debido a que estuvo lleno de retos…',
+		'Que superamos juntos…',
+		'Ahora es momento de cosechar lo que sembramos…',
+		'Y establecer nuevos retos para 2015.',
+		'¡te desea un feliz <span>2015!</span>',
+	];
 	var portuguese = [];
 
 	//Set lenguaje based on the lenguaje var
+	var texts = english;
 	switch(lenguaje){
 		case 'pt' :
 			texts = portuguese;
@@ -25,7 +34,6 @@ $(document).ready(function(){
 		default:
 			texts = english;
 	}
-	var texts = english;
 
 	//Fill texts
 	$.each($('.text'), function(index, val) {
@@ -34,8 +42,7 @@ $(document).ready(function(){
 
 	var s = skrollr.init({
 		render: function(data) {
-        	//Log the current scroll position.
-        	$('#tracking').html(data.curTop);
+        	//$('#tracking').html(data.curTop);
     	}
 	});
 

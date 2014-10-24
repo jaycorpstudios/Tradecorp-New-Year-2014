@@ -40,7 +40,7 @@ body{
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	color: rgb(255,255,255);
-	height: 6000px;
+	height: 11000px;
 	overflow: auto;
 	margin: 0;
 }
@@ -109,14 +109,27 @@ body{
 			.absoluteBox(600px, 200px, 50%, 50%);
 			margin: -150px 0 0 -300px;
 			text-align: center;
-			font-size: 74px;
-			line-height: 80px;
+			font-size: 70px;
+			line-height: 90px;
 			.text-shadow (0 1px 30px rgba(0, 0, 0, 0.7));
 			z-index: 10000;
 			opacity: 0;
+			@media (max-width: @anchoMovilHorizontal) {
+				.absoluteBox(320px, 200px, 50%, 50%);
+				font-size: 25px;
+				line-height: 30px;
+				margin: -30px 0 0 -160px;
+			} 
 			span{
 				font-size: 140%;
+				line-height: 90px;
 			}
+		}
+		.logo-tradecorp{
+			.absoluteBox(470px, 140px, 50%, 50%);
+			.at2x('@{imagesFolder}logo-tradecorp.png', 470px, 140px);
+			margin: -250px 0 0 -235px;
+			z-index: 10000;
 		}
 	}
 	#sky{
@@ -204,8 +217,8 @@ body{
 		}
 		.rain-filter{
 			.absoluteBox(100%, 100%, 0,0);
-			.at2x('@{imagesFolder}rain.png', 100px, 100px);
-			.animation (rain, 1s, 0, linear, infinite);
+			.at2x('@{imagesFolder}rain.png', 300px, 300px);
+			.animation (rain, .5s, 0, linear, infinite);
 			z-index: 5001;
 		}
 		.center-wrap{
@@ -246,10 +259,47 @@ body{
 				margin: 0 0 0 -716px;
 				bottom: -117px;
 			}
+			//Plantas laterales
+			.planta-izq{
+				.absoluteBox(82px, 316px, -100px, auto);
+				.at2x('@{imagesFolder}planta-izq.png', 82px, 316px);
+				bottom: -50px;
+				transform-origin: 41px 316px;
+				.mini-corn-1{
+					.absoluteBox(51px, 81px, 4px, 90px);
+					.at2x('@{imagesFolder}mini-corn-1.png', 51px, 81px);
+					transform-origin: 53px 81px;
+				}
+				.mini-corn-2{
+					.absoluteBox(56px, 52px, 0px, 156px);
+					.at2x('@{imagesFolder}mini-corn-2.png', 56px, 52px);
+					transform-origin: 65px 64px;
+				}
+			}
+			.planta-der{
+				.absoluteBox(81px, 327px, 400px, auto);
+				.at2x('@{imagesFolder}planta-der.png', 81px, 327px);
+				bottom: -50px;
+				transform-origin: 40px 327px;
+				.mini-corn-3{
+					.absoluteBox(55px, 87px, 29px, 117px);
+					.at2x('@{imagesFolder}mini-corn-3.png', 55px, 87px);
+					transform-origin: 0px 87px;
+				}
+				.mini-corn-4{
+					.absoluteBox(50px, 120px, -20px, 131px);
+					.at2x('@{imagesFolder}mini-corn-4.png', 50px, 120px);
+					transform-origin: 50px 120px;
+				}
+			}
 			//Estructura base del personaje
 			.personaje{
 				z-index: 4000;
-				.absoluteBox(323px, 350px, 65px, 240px);
+				.absoluteBox(323px, 350px, 110px, 240px);
+
+				.head-animated{
+					.animation (move-head, .5s, 0, linear, infinite);
+				}
 
 				.head{
 					.absoluteBox(150px, 150px, 28px, 33px);
@@ -269,6 +319,12 @@ body{
 						.absoluteBox(134px, 82px, 8px, -4px);
 						.at2x('@{imagesFolder}personaje/gorra.png', 134px, 82px);
 						z-index: 4020;
+					}
+					.sudor{
+						.absoluteBox(6px, 10px, 38px, 72px);
+						.at2x('@{imagesFolder}personaje/sudor.png', 6px, 10px);
+						z-index: 4019;
+						.animation (sudar, 4s, 0, linear, infinite);
 					}
 					//Expresiones
 					.exp-feliz{
@@ -309,8 +365,34 @@ body{
 					.at2x('@{imagesFolder}personaje/brazo-der.png', 36px, 57px);
 					transform-origin: 0px 15px;
 				}
-
-			
+				.brazo-der-paraguas{
+					.absoluteBox(218px, 275px, 106px, 0px);
+					.at2x('@{imagesFolder}personaje/brazo-der-paraguas.png', 218px, 275px);
+					transform-origin:  22px 190px;
+				}
+				.brazo-der-ok{
+					.absoluteBox(74px, 28px, 127px, 183px);
+					.at2x('@{imagesFolder}personaje/brazo-der-ok.png', 74px, 28px);
+				}
+				.brazo-der-tridente{
+					.absoluteBox(114px, 227px, 127px, 95px);
+					.at2x('@{imagesFolder}personaje/brazo-der-tridente.png', 114px, 227px);
+					transform-origin:  1px 97px;
+				}
+			}
+		}
+		.esposa{
+			z-index: 3999;
+			.absoluteBox(158px, 271px, 150px, 290px);
+			.at2x('@{imagesFolder}personaje/esposa.png', 158px, 271px);
+		}
+		.carrito-2015{
+			z-index: 4001;
+			.absoluteBox(126px, 158px, -6px, 400px);
+			.at2x('@{imagesFolder}carrito-2015.png', 126px, 158px);
+			.metas-2015{
+				.absoluteBox(79px, 105px, 26px, -7px);
+				.at2x('@{imagesFolder}metas-2015.png', 79px, 105px);
 			}
 		}
 		.ground{
@@ -332,26 +414,12 @@ section{
 
 
 /* 9.- Animaciones */
-@-webkit-keyframes menu_in{
-	0%{
-		opacity: 0;
-		-webkit-transform: translateX(-800px);
-	}
-	50%{
-		opacity: 0;
-		-webkit-transform: translateX(-500px);
-	}
-	100%{
-		opacity: 1;
-		-webkit-transform: translateX(0px);
-	}
-}
 @-webkit-keyframes rain{
 	0%{
 		background-position: 0px 0px;
 	}
 	100%{
-		background-position: 0px 100px;
+		background-position: 0px 300px;
 	}
 }
 @keyframes rain{
@@ -359,6 +427,54 @@ section{
 		background-position: 0px 0px;
 	}
 	100%{
-		background-position: 0px 100px;
+		background-position: 0px 300px;
+	}
+}
+@-webkit-keyframes sudar{
+	0%{
+		.transform(translateY(0));
+		opacity: 1;
+	}
+	60%{
+		opacity: .7;
+	}
+	100%{
+		.transform(translateY(15px));
+		opacity: 0;
+	}
+}
+@keyframes sudar{
+	0%{
+		.transform(translateY(0));
+		opacity: 1;
+	}
+	60%{
+		opacity: .7;
+	}
+	100%{
+		.transform(translateY(15px));
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move-head{
+	0%{
+		.transform(translateY(0));
+	}
+	50%{
+		.transform(translateY(5px));
+	}
+	100%{
+		.transform(translateY(0));
+	}
+}
+@keyframes move-head{
+	0%{
+		.transform(translateY(0));
+	}
+	50%{
+		.transform(translateY(5px));
+	}
+	100%{
+		.transform(translateY(0));
 	}
 }
