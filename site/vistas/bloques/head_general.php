@@ -23,23 +23,45 @@
 
 <link rel="stylesheet" href="<?= URL_BASE; ?>css/normalize.css">
 <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oswald' type='text/css'>
-<link rel="stylesheet" href="<?= URL_BASE; ?>css/style.css">
+<link rel="stylesheet" href="<?= URL_BASE; ?>css/style.min.css">
+
+<?
+  $files = scandir(FILES_BASE.'imagenes/');
+  $listadoDeImagenes = array();
+  //obtener solo las imagenes
+  function selectImageFiles($extension, $files, $baseDir = ''){
+      $images = array();
+      foreach ($files as $file) {
+          if(strpos($file, $extension)!==false){
+              array_push($images, $baseDir.$file);
+          }
+      }
+      return $images;
+  }
+  $listadoDeImagenes = selectImageFiles('.png', $files);
+  $files = scandir(FILES_BASE.'imagenes/personaje/');
+  $listadoDeImagenes = array_merge($listadoDeImagenes, selectImageFiles('.png', $files,'personaje/'));
+?>
 
 <script type="text/javascript">
     var urlBase = "<?php Base::printUrl(); ?>";
+    var listadoDeImagenes = <?php echo json_encode($listadoDeImagenes);?>;
     var lenguaje = "<?php echo $_GET['lenguaje']?>";
+    var app = {};
 </script>
+
+<?
+  echo $listadoDeImagenes;
+?>
 
 <!-- Liberias JS Generales -->
 <?php
-    //Base::importarLibreriaPHP('Mobile_Detect');
-    //Base::importarLiberiaJS("PxLoader");
-    //Base::importarLiberiaJS("PxLoaderImage");
-    //Base::importarLiberiaJS("PxLoaderVideo");
+    Base::importarLibreriaPHP('Mobile_Detect');
+    Base::importarLiberiaJS("PxLoader");
+    Base::importarLiberiaJS("PxLoaderImage");
     Base::importarLiberiaJS("modernizr-2.6.2.min");
     Base::importarLiberiaJS("jquery");
     Base::importarLiberiaJS("skrollr.min");
-    //Base::importarLiberiaJS("retina");
     Base::importarFuncionesJS('general');
 ?>
 

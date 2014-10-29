@@ -103,8 +103,43 @@ body{
 	position: fixed;
 	top: 0;
 	left: 0;
-	overflow: hidden;
+	overflow: hidden; 
+	.vignette{
+		.radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+		position: fixed;
+		z-index: 9000;
+	}
+	.preloader{
+		.gradient(rgb(0,46,74),rgb(100,114,121));
+		position: fixed;
+		z-index: 15000;
+		.loading{
+			.absoluteBox(300px, 300px, 50%, 50%);
+			margin: -150px 0 0 -150px;
+			text-align: center;
+			p{
+				.animation (loading, 2s, 0, linear, infinite);
+			}
+		}
+	}
 	#texts{
+		.scroll{
+			.absoluteBox(300px, 100px, 50%, auto);
+			margin: 0 0 0 -150px;
+			text-align: center;
+			font-size: 80%;
+			z-index: 14900;
+			.animation (sudar, 2s, 0, linear, infinite);
+			.scroll-icon{
+				width: 24px;
+				height: 46px;
+				display: inline-block;
+				.at2x('@{imagesFolder}scroll.png', 24px, 46px);
+			}
+			p{
+				.text-shadow (0 1px 30px rgba(0, 0, 0, 0.7));
+			}
+		}
 		.text{
 			.absoluteBox(600px, 200px, 50%, 50%);
 			margin: -150px 0 0 -300px;
@@ -125,11 +160,20 @@ body{
 				line-height: 90px;
 			}
 		}
+		.zoom-in{
+			.animation (zoom-in, 2s, 0, linear, 1);
+		}
 		.logo-tradecorp{
 			.absoluteBox(470px, 140px, 50%, 50%);
 			.at2x('@{imagesFolder}logo-tradecorp.png', 470px, 140px);
 			margin: -250px 0 0 -235px;
 			z-index: 10000;
+			@media (max-width: @anchoMovilHorizontal) {
+				background: url('@{imagesFolder}logo-tradecorp-small.png');
+				width: 300px;
+				height: 89px;
+				margin: -150px 0px 0px -150px;
+			}
 		}
 	}
 	#sky{
@@ -175,26 +219,44 @@ body{
 			.field-1{
 				.field-position(387px, 0, 2005);
 				.at2x('@{imagesFolder}field1.png', 2571px, 523px);
+				@media (max-width: @anchoMovilHorizontal) {
+					background: url('@{imagesFolder}field1-small.png');
+				}
 			}
 			.field-2{
 				.field-position(387px, 120px, 2004);
 				.at2x('@{imagesFolder}field2.png', 2571px, 523px);
+				@media (max-width: @anchoMovilHorizontal) {
+					background: url('@{imagesFolder}field2-small.png');
+				}
 			}
 			.field-3{
 				.field-position(523px, 0px, 2003);
 				.at2x('@{imagesFolder}field3.png', 2571px, 523px);
+				@media (max-width: @anchoMovilHorizontal) {
+					background: url('@{imagesFolder}field3-small.png');
+				}
 			}
 			.field-1-summer{
 				.field-position(387px, 0, 2005);
 				.at2x('@{imagesFolder}field1-summer.png', 2571px, 523px);
+				@media (max-width: @anchoMovilHorizontal) {
+					background: url('@{imagesFolder}field1-summer-small.png');
+				}
 			}
 			.field-2-summer{
 				.field-position(387px, 120px, 2004);
 				.at2x('@{imagesFolder}field2-summer.png', 2571px, 523px);
+				@media (max-width: @anchoMovilHorizontal) {
+					background: url('@{imagesFolder}field2-summer-small.png');
+				}
 			}
 			.field-3-summer{
 				.field-position(523px, 0px, 2003);
 				.at2x('@{imagesFolder}field3-summer.png', 2571px, 523px);
+				@media (max-width: @anchoMovilHorizontal) {
+					background: url('@{imagesFolder}field3-summer-small.png');
+				}
 			}
 		}
 	}
@@ -225,9 +287,11 @@ body{
 			.absoluteBox(500px, 500px, 50%, 50%);
 			z-index: 3000;
 			margin: -250px 0 0 -250px;
+			@media (max-width: @anchoMovilHorizontal) {
+				.transform(scale(.7) translateY(-100px));
+			}
 			.corn-group{
 				.absoluteBox(500px, 500px);
-
 			}
 			.corn{
 				.absoluteBox(446px, 366px);
@@ -414,6 +478,38 @@ section{
 
 
 /* 9.- Animaciones */
+@-webkit-keyframes loading{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+@keyframes loading{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+@-webkit-keyframes zoom-in{
+	0%{
+		.transform(scale(0));
+	}
+	100%{
+		.transform(scale(1));
+	}
+}
+@keyframes zoom-in{
+	0%{
+		.transform(scale(0));
+	}
+	100%{
+		.transform(scale(1));
+	}
+}
 @-webkit-keyframes rain{
 	0%{
 		background-position: 0px 0px;

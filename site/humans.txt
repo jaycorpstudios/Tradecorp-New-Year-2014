@@ -12,7 +12,7 @@ Site: http://www.tradecorp.com.mx
 
 # TECHNOLOGY COLOPHON
 
-Last update: 2014/08/15                             
+Last update: 2014/10/26                             
 Standards: HTML5, CSS3
 Components: Modernizr, jQuery, etc.
 Software: Sublime Text 3

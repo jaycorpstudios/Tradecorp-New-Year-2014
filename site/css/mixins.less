@@ -85,7 +85,14 @@
 	background-image: -ms-linear-gradient(left, @startColor, @endColor);
 	background-image: -o-linear-gradient(left, @startColor, @endColor);
 }
-
+.radial-gradient(@startColor: #eee, @endColor: white){
+	background: -moz-radial-gradient(center, ellipse cover,  @startColor 0%, @endColor 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@startColor), color-stop(100%,@endColor)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  @startColor 0%,@endColor 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  @startColor 0%,@endColor 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  @startColor 0%,@endColor 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  @startColor 0%,@endColor 100%); /* W3C */
+}
 .animation (@name, @duration: 300ms, @delay: 0, @ease: ease, @iteration: 1) {
 	-webkit-animation: @name @duration @delay @ease;
 	-moz-animation:    @name @duration @delay @ease;

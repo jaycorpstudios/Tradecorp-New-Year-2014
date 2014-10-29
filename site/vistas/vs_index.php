@@ -6,44 +6,58 @@
     <head>
         <?
             Base::importarBloque('head_general');
+            $detect = new Mobile_Detect;
         ?>
     </head>
     <body>
         <div id="wrapper">
-        <section id="texts">
-            <div class='text'
-                data-0="opacity: 1; transform: scale(1);"
-                data-1000="opacity: 0; transform: scale(0);">
+            <section class="preloader">
+                <div class="loading">
+                    <img src="<?=URL_BASE.'imagenes/no-preload/isotipo.png'?>" alt="Loading">
+                    <p>LOADING</p>
+                </div>
+            </section>
+            <section class="vignette"></section>
+            <section id="texts">
+            <div class="scroll" data-0="bottom: 0px;" data-1000="bottom: -200px;">
+                <div class="scroll-icon"></div>
+                <p>Start to scroll slowly...</p>
             </div>
-            <div class='text'
-                data-1000="opacity: 0; transform: scale(0) translateY(0px);"
-                data-1200="opacity: 1; transform: scale(1) translateY(0px);"
-                data-2000="opacity: 0; transform: scale(1) translateY(-500px);">
-            </div>
-            <div class='text'
-                data-2000="opacity: 0; transform: scale(0); top: 180px;" data-2250="opacity: 1; transform: scale(1);"
-                data-4000="opacity: 1" data-4500="opacity: 0">
-            </div>
-            <div class='text'
-                data-5000="opacity: 0; transform: scale(0); top: 180px;" data-5250="opacity: 1; transform: scale(1);"
-                data-6000="opacity: 1; transform: scale(1)" data-6250="opacity: 0; transform: scale(1);">
-            </div>
-            <div class='text'
-                data-6250="opacity: 0; transform: scale(0); top: 180px;" data-6500="opacity: 1; transform: scale(1);"
-                data-7500="opacity: 1; transform: scale(1)" data-8000="opacity: 0; transform: scale(1);">
-            </div>
-            <div class='text'
-                data-8000="opacity: 0; transform: scale(0); top: 180px;" data-8500="opacity: 1; transform: scale(1);"
-                data-9000="opacity: 1; transform: scale(1)" data-9500="opacity: 0; transform: scale(1);">
-            </div>
-            <div class='text'
-                data-9900="opacity: 0; transform: scale(0); margin-top: -80px;" data-10400="opacity: 1; transform: scale(1);">
-            </div>
-            <div class='logo-tradecorp'
-                data-9900="opacity: 0; transform: scale(0);" data-10400="opacity: 1; transform: scale(1);">
-            </div>
-        </section>
-            <section id="sky">
+                <div class='text'
+                    data-0="opacity: 1; transform: scale(1);"
+                    data-1000="opacity: 0; transform: scale(0);">
+                </div>
+                <div class='text'
+                    data-1000="opacity: 0; transform: scale(0) translateY(0px);"
+                    data-1200="opacity: 1; transform: scale(1) translateY(0px);"
+                    data-2000="opacity: 0; transform: scale(1) translateY(-500px);">
+                </div>
+                <div class='text'
+                    data-2000="opacity: 0; transform: scale(0); top: 180px;" data-2250="opacity: 1; transform: scale(1);"
+                    data-4000="opacity: 1" data-4500="opacity: 0">
+                </div>
+                <div class='text'
+                    data-5000="opacity: 0; transform: scale(0); top: 180px;" data-5250="opacity: 1; transform: scale(1);"
+                    data-6000="opacity: 1; transform: scale(1)" data-6250="opacity: 0; transform: scale(1);">
+                </div>
+                <div class='text'
+                    data-6250="opacity: 0; transform: scale(0); top: 180px;" data-6500="opacity: 1; transform: scale(1);"
+                    data-7500="opacity: 1; transform: scale(1)" data-8000="opacity: 0; transform: scale(1);">
+                </div>
+                <div class='text'
+                    data-8000="opacity: 0; transform: scale(0); top: 180px;" data-8500="opacity: 1; transform: scale(1);"
+                    data-9000="opacity: 1; transform: scale(1)" data-9500="opacity: 0; transform: scale(1);">
+                </div>
+                <div class='text'
+                    data-9900="opacity: 0; transform: scale(0); margin-top: -80px;" data-10400="opacity: 1; transform: scale(1);">
+                </div>
+                <div class='logo-tradecorp'
+                    data-9900="opacity: 0; transform: scale(0);" data-10400="opacity: 1; transform: scale(1);">
+                </div>
+            </section>
+            <section id="sky" <?if($detect->isMobile()){
+                echo 'data-9500="opacity: 1;" data-10500="opacity: .3;"';
+                }?>>
                 <div class="sun"
                     data-0="transform: translateX(0px) translateY(0px);"
                     data-1000="transform: translateX(600px) translateY(-200px);"
