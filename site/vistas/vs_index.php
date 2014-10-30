@@ -114,16 +114,16 @@
                     <div class="field-1" data-500="bottom: -100px" data-2000="bottom: 0px"></div>
                     <div class="field-2" data-500="bottom: -160px" data-2000="bottom: 120px"></div>
                     <div class="field-3" data-500="bottom: -800px" data-2000="bottom: 0px"></div>
-                    <div class="field-1-summer" data-2000="bottom: 0px" data-2100="opacity: 0;"data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
-                    <div class="field-2-summer" data-2000="bottom: 120px" data-2100="opacity: 0;"data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
-                    <div class="field-3-summer" data-2000="bottom: 0px" data-2100="opacity: 0;"data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
+                    <div class="field-1-summer" data-2000="bottom: 0px" data-2100="opacity: 0;" data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
+                    <div class="field-2-summer" data-2000="bottom: 120px" data-2100="opacity: 0;" data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
+                    <div class="field-3-summer" data-2000="bottom: 0px" data-2100="opacity: 0;" data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
                 </div>
             </section>
             <section id="front-field" data-1000="transform: translateY(100%);" data-2000="transform: translateY(0%);" data-9500="transform: translateY(0%);" data-10500="transform: translateY(100%);">
-                <div class="hot-sun" data-2000="opacity: 0;"data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
-                <div class="hot-filter" data-2000="opacity: 0;"data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
-                <div class="sad-filter" data-3000="opacity: 0;"data-3500="opacity: 1" data-4000="opacity: 1" data-4500="opacity: 0"></div>
-                <div class="rain-filter" data-3500="opacity: 0;"data-4000="opacity: .4" data-4500="opacity: 0"></div>
+                <div class="hot-sun" data-2000="opacity: 0;" data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
+                <div class="hot-filter" data-2000="opacity: 0;" data-2500="opacity: 1" data-3000="opacity: 1" data-3500="opacity: 0"></div>
+                <div class="sad-filter" data-3000="opacity: 0;" data-3500="opacity: 1" data-4000="opacity: 1" data-4500="opacity: 0"></div>
+                <div class="rain-filter" data-3500="opacity: 0;" data-4000="opacity: .4" data-4500="opacity: 0"></div>
                 <div class="center-wrap">
                     <div class="corn-group" data-1000="transform: translateY(-150px);" data-2000="transform: translateY(0px);">
                         <div class="corn corn-left" data-4500="transform: scale(.5);" data-5000="transform: scale(1);"></div>
@@ -146,9 +146,9 @@
                         <div class="head" data-8000="@class:head" data-8800="@class:head head-animated;">
                             <div class="gorra"></div>
                             <div class="sudor" data-2000="display: none;" data-2250="display: inline-block;" data-3199="display: inline-block;" data-3200="display: none;"></div>
-                            <div class="sudor" data-2000="display: none; left:60px;"data-2250="display: inline-block;" data-3199="display: inline-block;" data-3200="display: none;"></div>
-                            <div class="sudor" data-2000="display: none; left:90px;"data-2250="display: inline-block;" data-3199="display: inline-block;" data-3200="display: none;"></div>
-                            <div class="sudor" data-2000="display: none; left:114px;"data-2250="display: inline-block;" data-3199="display: inline-block;" data-3200="display: none;"></div>
+                            <div class="sudor" data-2000="display: none; left:60px;" data-2250="display: inline-block;" data-3199="display: inline-block;" data-3200="display: none;"></div>
+                            <div class="sudor" data-2000="display: none; left:90px;" data-2250="display: inline-block;" data-3199="display: inline-block;" data-3200="display: none;"></div>
+                            <div class="sudor" data-2000="display: none; left:114px;" data-2250="display: inline-block;" data-3199="display: inline-block;" data-3200="display: none;"></div>
                             <div class="paja"></div>
                             <div class="head-front"></div>
                             <div class="exp-preocupado" data-2499="opacity: 0" data-2500="opacity: 1" data-3499="opacity: 1" data-3500="opacity: 0"></div>

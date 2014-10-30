@@ -4,10 +4,6 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
 
-<meta http-equiv="Expires" CONTENT="Tue, 01 Jan 1970 1:00:00 GMT">
-<meta http-equiv="Cache-Control" CONTENT ="no-cache">
-<meta http-equiv="Pragma" CONTENT="no-cache">
-
 <!--Facebook Metadata -->
 <meta property="og:title" content="Tradecorp wishes you a happy 2015"/>
 <meta property="og:url" content="<?= URL_BASE; ?>"/>
