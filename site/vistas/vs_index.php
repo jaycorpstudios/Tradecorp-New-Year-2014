@@ -171,9 +171,9 @@
                             data-6499="opacity: 1" data-6500="opacity: 0">
                         </div>
                         <div class="brazo-der-paraguas"
-                            data-3499="opacity: 0" data-3500="opacity: 1; transform: rotate(36deg);"
+                            data-3499="opacity: 0;" data-3500="opacity: 1; transform: rotate(36deg);"
                             data-3700="transform: rotate(-27deg);" data-4200="transform: rotate(-27deg);" data-4498="transform: rotate(36deg);"
-                            data-4499="opacity: 1" data-4500="opacity: 0">
+                            data-4499="opacity: 1;" data-4500="opacity: 0;">
                         </div>
                         <div class="brazo-der-ok"
                             data-5249="opacity: 0" data-5250="opacity: 1"

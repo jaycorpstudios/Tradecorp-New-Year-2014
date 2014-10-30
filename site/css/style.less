@@ -298,7 +298,7 @@ body{
 				.at2x('@{imagesFolder}corns.png', 446px, 366px);
 				bottom: 0px;
 				z-index: 3001;
-				transform-origin: center 366px;
+				.transform-origin(center, 366px);
 			}
 			.corn-summer{
 				.absoluteBox(446px, 366px);
@@ -306,7 +306,7 @@ body{
 				bottom: 0px;
 				z-index: 3002;
 				transition: .5s;
-				transform-origin: center 366px;
+				.transform-origin(center, 366px);
 			}
 			.corn-left{
 				left: -340px;
@@ -328,32 +328,32 @@ body{
 				.absoluteBox(82px, 316px, -100px, auto);
 				.at2x('@{imagesFolder}planta-izq.png', 82px, 316px);
 				bottom: -50px;
-				transform-origin: 41px 316px;
+				.transform-origin(41px, 316px);
 				.mini-corn-1{
 					.absoluteBox(51px, 81px, 4px, 90px);
 					.at2x('@{imagesFolder}mini-corn-1.png', 51px, 81px);
-					transform-origin: 53px 81px;
+					.transform-origin(53px, 81px);
 				}
 				.mini-corn-2{
 					.absoluteBox(56px, 52px, 0px, 156px);
 					.at2x('@{imagesFolder}mini-corn-2.png', 56px, 52px);
-					transform-origin: 65px 64px;
+					.transform-origin(65px, 64px);
 				}
 			}
 			.planta-der{
 				.absoluteBox(81px, 327px, 400px, auto);
 				.at2x('@{imagesFolder}planta-der.png', 81px, 327px);
 				bottom: -50px;
-				transform-origin: 40px 327px;
+				.transform-origin(40px, 327px);
 				.mini-corn-3{
 					.absoluteBox(55px, 87px, 29px, 117px);
 					.at2x('@{imagesFolder}mini-corn-3.png', 55px, 87px);
-					transform-origin: 0px 87px;
+					.transform-origin(0px, 87px);
 				}
 				.mini-corn-4{
 					.absoluteBox(50px, 120px, -20px, 131px);
 					.at2x('@{imagesFolder}mini-corn-4.png', 50px, 120px);
-					transform-origin: 50px 120px;
+					.transform-origin(50px, 120px);
 				}
 			}
 			//Estructura base del personaje
@@ -367,7 +367,7 @@ body{
 
 				.head{
 					.absoluteBox(150px, 150px, 28px, 33px);
-					transform-origin: 75px 150px;
+					.transform-origin(75px 150px);
 					z-index: 4010;
 					.head-back{
 						.absoluteBox(116px, 155px, 6px, 12px);
@@ -422,17 +422,17 @@ body{
 				.brazo-izq{
 					.absoluteBox(36px, 57px, 31px, 183px);
 					.at2x('@{imagesFolder}personaje/brazo-izq.png', 36px, 57px);
-					transform-origin: 36px 15px;
+					.transform-origin(36px 15px);
 				}
 				.brazo-der{
 					.absoluteBox(36px, 57px, 127px, 185px);
 					.at2x('@{imagesFolder}personaje/brazo-der.png', 36px, 57px);
-					transform-origin: 0px 15px;
+					.transform-origin(0px, 15px);
 				}
 				.brazo-der-paraguas{
 					.absoluteBox(218px, 275px, 106px, 0px);
 					.at2x('@{imagesFolder}personaje/brazo-der-paraguas.png', 218px, 275px);
-					transform-origin:  22px 190px;
+					.transform-origin(22px, 190px);
 				}
 				.brazo-der-ok{
 					.absoluteBox(74px, 28px, 127px, 183px);
@@ -441,7 +441,7 @@ body{
 				.brazo-der-tridente{
 					.absoluteBox(114px, 227px, 127px, 95px);
 					.at2x('@{imagesFolder}personaje/brazo-der-tridente.png', 114px, 227px);
-					transform-origin:  1px 97px;
+					.transform-origin(1px, 97px);
 				}
 			}
 		}
