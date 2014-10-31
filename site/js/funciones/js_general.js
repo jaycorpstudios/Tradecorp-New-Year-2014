@@ -35,13 +35,21 @@ $(document).ready(function(){
 				'Y establecer nuevos retos para 2015.',
 				'¡Te deseamos todo el éxito en <span>2015!</span>',
 			];
-			var portuguese = [];
+			var portuguese = [
+				'<span>2014</span><br>está prestes a terminar…',
+				'E as experiências nos fizeram um pouco mais sábios…',
+				'Porque foi um ano cheio de desafios…',
+				'Que superamos juntos…',
+				'Agora é hora de colhermos o que plantamos…',
+				'E estabelecer novos desafios para 2015.',
+				'Desejamos a você todo sucesso em <span>2015!</span>',
+			];
 			//Set lenguaje based on the lenguaje variable
 			app.texts = english;
 			switch(lenguaje){
 				case 'pt' :
 					app.texts = portuguese;
-					$('.scroll').find('p').text('Start to scroll slowly...');
+					$('.scroll').find('p').text('Role a tela lentamente...');
 					break;
 				case 'es':
 					app.texts = spanish;
