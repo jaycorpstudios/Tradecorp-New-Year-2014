@@ -43,7 +43,6 @@ class ctr_index {
             */
                 if($_GET['destino']=='vista'){  //si el destino es una vista
                     $vista = $_GET['vista'];
-                    logger::escribirDebug('ctr_index', 'Antes: '.$_GET['vista'].' $modulo='.$_GET['modulo'].' $seccion= '.$_GET['seccion'].' $subseccion'.$_GET['subseccion']);
                     //Si en este punto la vista es el login, redirecciona al inicio;
                     if($_GET['vista']=='login'){
                         header('Location: '.URL_BASE);

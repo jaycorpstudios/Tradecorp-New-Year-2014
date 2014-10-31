@@ -25,7 +25,6 @@ class ctr_acceso implements if_control {
         
         #para cerrar sesion
         if($post['accion']=='logout'){
-            logger::escribirBitacora("ctr_acceso.php", "se recibio una peticion al logout");
             session_destroy();
             $sender->sendString('logout', 'ok');
         }        
