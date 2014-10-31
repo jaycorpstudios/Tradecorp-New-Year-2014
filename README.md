@@ -2,6 +2,7 @@ Tradecorp-New-Year-2014
 =======================
 
 Mini web site project, like a Greeting card run by parallax animation for Tradecorp International.
+Live Demo: http://www.tradecorp.com.mx/newyear/site/en/ 
 
 ##Configuration:
 Modify the site/config.php file
