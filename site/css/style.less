@@ -72,6 +72,9 @@ body{
 		display: none;
 	}
 }
+.zoom-in{
+	.animation (zoom-in, 2s, 0, linear, 1);
+}
 
 .absoluteBox(@width: 100px, @height: 100px, @left: auto, @top: auto){
 	width: @width;
@@ -107,7 +110,29 @@ body{
 	.vignette{
 		.radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
 		position: fixed;
-		z-index: 9000;
+		z-index: 9000; 
+		.scroll{
+			.absoluteBox(300px, 100px, 50%, 50%);
+			margin: -50px 0 0 -150px;
+			text-align: center;
+			font-size: 125%;
+			z-index: 14900;
+			.scroll-icon{
+				width: 24px;
+				height: 46px;
+				display: inline-block;
+				position: relative;
+				.at2x('@{imagesFolder}scroll.png', 24px, 46px);
+				.flecha{
+					.absoluteBox(8px, 5px, 8px, 18px);
+					.at2x('@{imagesFolder}flecha.png', 8px, 5px);
+					.animation (sudar, 2s, 0, linear, infinite);
+				}
+			}
+			p{
+				.text-shadow (0 1px 30px rgba(0, 0, 0, 0.7));
+			}
+		}
 	}
 	.preloader{
 		.gradient(rgb(0,46,74),rgb(100,114,121));
@@ -123,23 +148,6 @@ body{
 		}
 	}
 	#texts{
-		.scroll{
-			.absoluteBox(300px, 100px, 50%, auto);
-			margin: 0 0 0 -150px;
-			text-align: center;
-			font-size: 80%;
-			z-index: 14900;
-			.animation (sudar, 2s, 0, linear, infinite);
-			.scroll-icon{
-				width: 24px;
-				height: 46px;
-				display: inline-block;
-				.at2x('@{imagesFolder}scroll.png', 24px, 46px);
-			}
-			p{
-				.text-shadow (0 1px 30px rgba(0, 0, 0, 0.7));
-			}
-		}
 		.text{
 			.absoluteBox(600px, 200px, 50%, 50%);
 			margin: -150px 0 0 -300px;
@@ -159,9 +167,6 @@ body{
 				font-size: 140%;
 				line-height: 90px;
 			}
-		}
-		.zoom-in{
-			.animation (zoom-in, 2s, 0, linear, 1);
 		}
 		.logo-tradecorp{
 			.absoluteBox(470px, 140px, 50%, 50%);

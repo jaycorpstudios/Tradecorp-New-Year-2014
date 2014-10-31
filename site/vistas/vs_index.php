@@ -17,14 +17,21 @@
                     <p>LOADING</p>
                 </div>
             </section>
-            <section class="vignette"></section>
+            <section class="vignette">
+                <div class="scroll"
+                data-0="transform: scale(1);"
+                data-250="transform: scale(0);">
+                    <div class="scroll-icon">
+                        <div class="flecha"></div>
+                    </div>
+                    <p>Start to scroll slowly...</p>
+                </div>
+            </section>
             <section id="texts">
-            <div class="scroll" data-0="bottom: 0px;" data-1000="bottom: -200px;">
-                <div class="scroll-icon"></div>
-                <p>Start to scroll slowly...</p>
-            </div>
                 <div class='text'
-                    data-0="opacity: 1; transform: scale(1);"
+                    data-250="opacity: 0; transform: scale(0);"
+                    data-500="opacity: 1; transform: scale(1);"
+                    data-800="opacity: 1; transform: scale(1);"
                     data-1000="opacity: 0; transform: scale(0);">
                 </div>
                 <div class='text'
@@ -142,7 +149,7 @@
                         <div class="mini-corn-3" data-6000="transform: scale(0);" data-7000="transform: scale(1);"></div>
                         <div class="mini-corn-4" data-6000="transform: scale(0);" data-7000="transform: scale(1);"></div>
                     </div>
-                    <div class="personaje" data-5000="left: 100px;" data-5250="left: 20px;" data-6250="left: 20px;" data-6500="left: 100px;">
+                    <div class="personaje" data-5000="left: 100px;" data-5250="left: 20px;">
                         <div class="head" data-8000="@class:head" data-8800="@class:head head-animated;">
                             <div class="gorra"></div>
                             <div class="sudor" data-2000="display: none;" data-2250="display: inline-block;" data-3199="display: inline-block;" data-3200="display: none;"></div>
@@ -184,7 +191,9 @@
                         </div>
                         <div class="shadow"></div>
                     </div>
-                    <div class="esposa" data-5000="opacity: 0; left:118px;" data-5250="opacity: 1; left:150px;" data-6250="opacity: 1; left:150px;" data-6500="opacity: 0; left:118px;"></div>
+                    <div class="esposa"
+                        data-5000="opacity: 0; left:118px;" data-5250="opacity: 1; left:150px;"
+                        data-6250="left:150px;" data-6500="left:221px;"></div>
                     <div class="carrito-2015"
                         data-8000="opacity: 0; transform: translateX(-1000px);" data-8500="opacity: 1; transform: translateX(0px);">
                         <div class="metas-2015"

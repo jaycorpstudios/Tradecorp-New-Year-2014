@@ -24,7 +24,7 @@ $(document).ready(function(){
 				'That we overcame together…',
 				'Now it is time to reap what we sowed…',
 				'And set new challenges for 2015.',
-				'wishes you a happy <span>2015!</span>'
+				'We wish you every success in <span>2015!</span>'
 			];
 			var spanish = [
 				'<span>2014</span><br>esta a punto de terminar…',
@@ -33,7 +33,7 @@ $(document).ready(function(){
 				'Que superamos juntos…',
 				'Ahora es momento de cosechar lo que sembramos…',
 				'Y establecer nuevos retos para 2015.',
-				'¡te desea un feliz <span>2015!</span>',
+				'¡Te deseamos todo el éxito en <span>2015!</span>',
 			];
 			var portuguese = [];
 			//Set lenguaje based on the lenguaje variable
@@ -72,7 +72,7 @@ $(document).ready(function(){
 			});
 			
 			cargador.addCompletionListener(function(){
-				$('.text').first().addClass('zoom-in');
+				$('.scroll').find('p').addClass('zoom-in');
 			 	$('.preloader').fadeOut(1000,function(){
 			 		app.readyToScroll = true;
 			 	});
