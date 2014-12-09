@@ -27,8 +27,8 @@ $(document).ready(function(){
 				'We wish you every success in <span>2015!</span>'
 			];
 			var spanish = [
-				'<span>2014</span><br>esta a punto de terminar…',
-				'Y las experiencias vividas nos han hecho un poco mas sabios…',
+				'<span>2014</span><br>está a punto de terminar…',
+				'Y las experiencias vividas nos han hecho un poco más sabios…',
 				'Debido a que estuvo lleno de retos…',
 				'Que superamos juntos…',
 				'Ahora es momento de cosechar lo que sembramos…',

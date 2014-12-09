@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"read",
+				"readyToScroll"
+			],
+			[
+				"r",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"filtrar",
+				"filtrarListadoDeImagenes"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"scandi",
+				"scandir()	standard Function"
+			],
+			[
+				"div",
+				"div>  (element)"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"en",
+				"english"
+			],
+			[
+				"each",
+				"each	$.each()"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"section",
+				"section	<section>"
+			],
+			[
 				"fun",
 				"function"
 			],
@@ -44,10 +116,6 @@
 				"coverCertificacionLoaded"
 			],
 			[
-				"tex",
-				"text-align"
-			],
-			[
 				"rgb",
 				"rgb(r,g,b)"
 			],
@@ -62,10 +130,6 @@
 			[
 				"backg",
 				"background"
-			],
-			[
-				"bac",
-				"background-color"
 			],
 			[
 				"fon",
@@ -126,10 +190,6 @@
 			[
 				"ba",
 				"background-color"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"wid",
@@ -202,10 +262,6 @@
 			[
 				"add",
 				"addslashes"
-			],
-			[
-				"en",
-				"utf8_encode"
 			],
 			[
 				"ut",
@@ -282,10 +338,6 @@
 			[
 				"menu",
 				"menuOpen"
-			],
-			[
-				"r",
-				"rgb(r,g,b)"
 			],
 			[
 				"a",
@@ -462,77 +514,26 @@
 			[
 				"marM",
 				"marcMexicoIn"
-			],
-			[
-				"Separador",
-				"separador_internacional"
-			],
-			[
-				"imagen",
-				"imagen_portada"
-			],
-			[
-				"set",
-				"setFillColor()	VectorObject"
-			],
-			[
-				"in",
-				"insert()	GroupObject"
-			],
-			[
-				"gr",
-				"group"
-			],
-			[
-				"storyboard.d",
-				"storyboard.disableAutoPurge	storyboard"
-			],
-			[
-				"st",
-				"storyboard"
-			],
-			[
-				"event.",
-				"event.target"
-			],
-			[
-				"display.new",
-				"display.newRect()	display"
-			],
-			[
-				"to",
-				"touchListener"
-			],
-			[
-				"ad",
-				"addEventListener"
-			],
-			[
-				"iso",
-				"isoSprite"
-			],
-			[
-				"col",
-				"colgroup	<colgroup>"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 167.0,
 		"selected_items":
 		[
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssjq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
 			[
 				"ssa",
 				"Set Syntax: JavaScript"
@@ -546,16 +547,8 @@
 				"Snippet: jQuery.ajax"
 			],
 			[
-				"ssjs",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"ssht",
 				"Set Syntax: HTML"
-			],
-			[
-				"ssjq",
-				"Set Syntax: jQuery (JavaScript)"
 			],
 			[
 				"font",
@@ -699,14 +692,34 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/Jay/Dropbox/websites/newyear",
+		"/Users/Jay/Dropbox/websites/newyear/site",
+		"/Users/Jay/Dropbox/websites/newyear/site/css",
+		"/Users/Jay/Dropbox/websites/newyear/site/js",
+		"/Users/Jay/Dropbox/websites/newyear/site/js/funciones",
+		"/Users/Jay/Dropbox/websites/newyear/site/vistas",
+		"/Users/Jay/Dropbox/websites/newyear/site/vistas/bloques"
 	],
 	"file_history":
 	[
+		"/Users/Jay/Dropbox/websites/fitness/database_backup/fitness_2014-05-23.sql",
+		"/Users/Jay/Desktop/check.js",
+		"/Users/Jay/Dropbox/websites/newyear/site/css/style.less",
+		"/Users/Jay/Dropbox/websites/newyear/site/js/funciones/js_general.js",
+		"/Users/Jay/Dropbox/websites/newyear/site/vistas/bloques/head_general.php",
+		"/Users/Jay/Dropbox/websites/newyear/site/vistas/vs_index.php",
+		"/Users/Jay/Dropbox/websites/newyear/site/.gitignore",
+		"/Users/Jay/Dropbox/websites/newyear/site/config.php",
+		"/Users/Jay/Dropbox/websites/newyear/site/css/mixins.less",
+		"/Users/Jay/Library/Application Support/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/Jay/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/Users/Jay/Dropbox/websites/organic/site/css/style.less",
+		"/Users/Jay/Dropbox/websites/newyear/site/css/retina.less",
+		"/Users/Jay/Desktop/Repositorios/app/styles/main.less",
 		"/Volumes/Diseño/Tradecorp Global/España/Headers Newsletter/html/header-mkt.html",
 		"/Volumes/Diseño/Tradecorp Global/España/Headers Newsletter/html/header-mkt.html",
 		"/Users/Jay/Downloads/htms-63728638signature.htm",
 		"/Volumes/Diseno/Tradecorp Global/España/Headers Newsletter/html/header-mkt.html",
-		"/Users/Jay/Desktop/Repositorios/app/styles/main.less",
 		"/Users/Jay/Desktop/Repositorios/app/scripts/directives/skrollr.dir.js",
 		"/Users/Jay/Desktop/Repositorios/app/index.html",
 		"/Users/Jay/Desktop/Repositorios/app/views/intro.html",
@@ -816,24 +829,11 @@
 		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/controles/if_control.php",
 		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/controles/p_control.php",
 		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/bloques/formulario.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/vs_reflexologia.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/psicologia.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/prenatal.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/ninios.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/mamabebe.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/kundalini.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/horarios.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/floresdebach.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/contacto.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/vs_404.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/css/style.css",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/vs_adultos.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/cococina.php",
-		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/bloques/tabla.php"
+		"/Users/jaycorpstudios/Dropbox/websites/yogarte/site/vistas/vs_reflexologia.php"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -848,6 +848,71 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"data",
+			"ata-2500",
+			"transform-ori",
+			"transform-o",
+			"P",
+			"loading",
+			"sudar",
+			"animation",
+			"in",
+			"zoom",
+			"rain",
+			"iniciar",
+			"filtrarListadoDeImagenes",
+			"cargador",
+			"loader",
+			"rgba(19,19,19,0.4)",
+			"rgba(0,0,0,0)",
+			"radial",
+			"precargaDeImagenes",
+			"this",
+			"66",
+			"rain",
+			"3000",
+			"2500",
+			"opacity: 1",
+			"opacity: 1;",
+			"opacity: 0;",
+			"127",
+			"158",
+			"140",
+			"323",
+			"5000",
+			"6500",
+			"6000",
+			"65",
+			"53",
+			"corn-2",
+			"corn-1",
+			"82",
+			"planta-izq",
+			"316",
+			"82",
+			"1000",
+			"3500",
+			"gradient",
+			"-",
+			"3000",
+			"data-5000=\"transform: scale(1);\"",
+			"data-1500=\"transform: scale(.5);\"",
+			"1500",
+			"scaleY",
+			"scale",
+			"57",
+			"36",
+			"57",
+			"36",
+			"-webkit-",
+			"2000",
+			"1000",
+			".box",
+			"1500",
+			"at2x",
+			"224",
+			"318",
+			"275",
 			"	",
 			"..........................................................................................................",
 			".........................................................................................................",
@@ -910,72 +975,7 @@
 			"serve",
 			"videoCover",
 			"Loaded",
-			"opciones",
-			"Soluciones",
-			"touch",
-			"loader",
-			"Loader",
-			"loader",
-			"255",
-			"3.-",
-			"Estructura genera",
-			"table_cell",
-			"reajustarAltura",
-			"modernizr-2.6.2.min",
-			"css",
-			"<li><a href=\"adultos.php\"><span>7:00 pm - Yoga Adultos</span></a></li>",
-			"<li><a href=\"adultos.php\"><span>8:30 pm - Yoga Adultos</span></a></li>",
-			"<li><a href=\"adultos.php\"><span>9:30 am - Yoga Adultos</span></a></li>",
-			"<li><a href=\"adultos.php\"><span>7:00 am - Yoga Adultos</span></a></li>",
-			"<a href=\"adultos.php\">Yoga adultos</a>",
-			"gray",
-			"horarios",
-			"#662929",
-			"h1",
-			"#6f6f6f",
-			"#b65f62",
-			"ul.Clases li im",
-			"img:hover",
-			".grid-container",
-			"1s",
-			"124, 124, 124,",
-			"25px",
-			"fondo",
-			"40px",
-			"@media",
-			"width",
-			"@media",
-			"logo",
-			".clear",
-			"include",
-			"images",
-			"imagenes",
-			"imagenes/",
-			"<a href=\"",
-			"include",
-			"imagenes/",
-			".php",
-			"src=\"imagenes",
-			"jpg",
-			"horarios",
-			"table",
-			"textos",
-			"horarios",
-			"horarios_min",
-			"<a href=\"kundalini.php\">Kundalini Yoga</a>",
-			"footer",
-			":hover",
-			"horarios",
-			"<td >",
-			"class=\"bordeClase\"",
-			"align=\"center\" valign=\"middle\"",
-			"img",
-			"cajaPrincipales",
-			"Principales",
-			"</li>",
-			"</a>",
-			"<a",
-			"<li>"
+			"opciones"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1018,140 +1018,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1300,7 +1168,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 306.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
